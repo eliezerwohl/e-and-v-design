@@ -79,6 +79,14 @@ margin:0px 25px;
 .controls .divider {
 	margin:0px 10px;
 }
+
+.bs-example-modal-lg-contact .modal-content {
+	display: grid;
+}
+
+.bs-example-modal-lg-contact input, .bs-example-modal-lg-contact textarea {
+	margin-bottom: 15px;
+}
 .nav {
 background-color: #600473;
 color: white;
