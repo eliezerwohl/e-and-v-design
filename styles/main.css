@@ -1,5 +1,14 @@
+h1,h2, .navbar-brand {
+	font-family:  'Kaushan Script', cursive;
+}
+
+h3 {
+	font-size: 30px;
+/*	margin-top: 10px;*/
+}
+
 body {
-	color:none;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #main a {
@@ -8,13 +17,14 @@ body {
 
 #main button {
 	background-color: white;
-	border:	1px solid #082340;
+	border:	1px solid #600473;
 	border-radius: 10px;
 	margin:5px;
+	color: #600473;
 }
 
 #main button:hover {
-	background-color: #082340;
+	background-color: #600473;
 	color:white;
 }
 
@@ -24,7 +34,7 @@ body {
 
 
 .welcomeBackground {
-  background: url(../img/blueblur2.jpeg) no-repeat ; 
+  background: url(../img/background.png) no-repeat ; 
   background-size: cover;
   min-height: 100vh;
 }
@@ -39,6 +49,11 @@ body {
 
 .navbar-default .navbar-nav > li > a:focus {
 	color:#808080;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #600473;
+	opacity: 0.7;
 }
 ul li {
 	font-size: 18px;
@@ -85,12 +100,12 @@ ul li, ul li:hover, .active {
 }
 
 .banner h2 {
-  font-size: 90px;
+  font-size: 60px;
   padding: 80px 0px;
   font-weight: 600;
   float:none;
   margin:0 auto;
-  color:#600473;
+  /*color:#600473;*/
 }
 
 .storyHeader h2 {
