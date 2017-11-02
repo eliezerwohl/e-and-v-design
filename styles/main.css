@@ -11,6 +11,18 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+
+.parent {
+  position: relative;
+}
+.child {
+	width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #main a {
 	color: #600473;
 }
@@ -90,13 +102,8 @@ ul li, ul li:hover, .active {
 }
 
 .welcomeDiv h1 {
-	margin-top: 100px;
 	font-size: 90px;
-	font-weight: 700;
-}
-
-.welcomeDiv h1:nth-child(2) {
-		margin-bottom: 100px;
+/*	font-weight: 700;*/
 }
 
 .banner h2 {
@@ -146,13 +153,13 @@ ul li:hover {
 }
 
 #contact {
-	min-height: calc(100vh - 120px);
+	min-height: calc(100vh - 100px);
 }
 
 
 #main .container{
 	width: 100%;
-	margin:40px 0px 80px;
+	margin:0px 0px;
 }
 
 #main .col-md-12, #main .container{
@@ -192,6 +199,10 @@ ul li:hover {
 	float: left;
 }
 
+footer {
+	min-height: 40px;
+}
+
 @media (max-width: 767px) {
 
 	.active {
@@ -208,7 +219,7 @@ ul li:hover {
 		font-size: 2em;
 	}
 	.welcomeDiv h1 {
-		margin-top: 20vh;
+/*		margin-top: 20vh;*/
 		font-size: 60px;
 	}
 
