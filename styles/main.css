@@ -1,9 +1,9 @@
-h1,h2, .navbar-brand {
+h1, .navbar-brand {
 	font-family:  'Kaushan Script', cursive;
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 28px;
 /*	margin-top: 10px;*/
 }
 
@@ -11,6 +11,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+p {
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
 
 .parent {
   position: relative;
@@ -26,6 +30,13 @@ body {
 #main a {
 	color: #600473;
 }
+#main a:hover p {
+	opacity: 0.7;
+}
+
+#main a:hover {
+	text-decoration: none;
+}
 
 #main button {
 	background-color: white;
@@ -40,13 +51,14 @@ body {
 	color:white;
 }
 
+
 #main button:active {
 	text-decoration: underline;
 }
 
 
 .welcomeBackground {
-  background: url(../img/background.png) no-repeat ; 
+  background: url(../img/background.jpg) no-repeat ; 
   background-size: cover;
   min-height: 100vh;
 }
@@ -67,13 +79,26 @@ body {
 	color: #600473;
 	opacity: 0.7;
 }
+
+
 ul li {
-	font-size: 18px;
+	font-size: 16px;
+	color: #CDCCDA;
 }
 
-ul li, ul li:hover, .active { 
-	border-radius: 10px;
+ul li:hover {
+	background-color:transparent;
+	font-style: italic;
 }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	font-weight: 700;
+	background-color: white;
+	color: #600473;
+}
+
 .navbar-nav, .navbar-header {
  	margin-top: 10px
 }
@@ -102,14 +127,15 @@ ul li, ul li:hover, .active {
 }
 
 .welcomeDiv h1 {
-	font-size: 90px;
+	font-size: 100px;
+	margin-top: 0px;
+	margin-bottom: 30px;
 /*	font-weight: 700;*/
 }
 
 .banner h2 {
-  font-size: 60px;
-  padding: 80px 0px;
-  font-weight: 600;
+  font-size: 40px;
+  padding: 50px 0px;
   float:none;
   margin:0 auto;
   /*color:#600473;*/
@@ -127,16 +153,15 @@ ul li, ul li:hover, .active {
 .storyHeader h3 {
 	color:#6093b0
 }
-ul li:hover {
-	background-color: lightgray;
-}
+
 #main p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4em;
 }
 
 #main .workDiv {
 	padding: 20px 15px;
+	border-bottom: 1px solid 	#CDCCDA;
 }
 
 .bannerBackground {
@@ -152,8 +177,34 @@ ul li:hover {
 	border-bottom: none;
 }
 
+#portfolio .workDiv:nth-child(2) {
+	padding-top: 0px;
+}
+
+
 #contact {
-	min-height: calc(100vh - 100px);
+	min-height: calc(100vh - 80px);
+}
+
+input:focus, textarea:focus {
+	outline:none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity: .3;
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  opacity: .3;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  opacity: .3;
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  opacity: .3;
+  font-style: italic;
 }
 
 
@@ -201,6 +252,7 @@ ul li:hover {
 
 footer {
 	min-height: 40px;
+	font-size: 12px;
 }
 
 @media (max-width: 767px) {
@@ -211,9 +263,6 @@ footer {
 	.elieNav, .navbar-header {
 		height:50px;
 		margin-top: 0px
-	}
-	.banner h2 {
-  	font-size: 60px;
 	}
 	.navbar-brand {
 		font-size: 2em;
@@ -236,6 +285,14 @@ footer {
 	.container-fluid {
 		background:white;
     border-bottom:1px solid #808080;
+	}
+
+	.banner h2 {
+		font-size: 36px;
+	}
+
+	h3 {
+		font-size: 26px;
 	}
 
 }
