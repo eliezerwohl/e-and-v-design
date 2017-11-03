@@ -2,11 +2,11 @@ var menuVar;
 var compensate = 0;
 function scrollFunction(){
   if($(this).scrollTop() > 0){   
-      $('.elieNav').removeClass("topNav").addClass("scrollNav");   
+      $('.navbar-default').removeClass("topNav").addClass("scrollNav");   
       $(".navbar-brand").removeClass("brandHide").addClass("brandShow");
      } 
   else { 
-    $('.elieNav').removeClass("scrollNav").addClass("topNav");
+    $('.navbar-default').removeClass("scrollNav").addClass("topNav");
     $(".navbar-brand").removeClass("brandShow").addClass("brandHide");
     $(".nav").find(".active").removeClass("active");
   }
