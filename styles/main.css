@@ -1,3 +1,11 @@
+@font-face {
+font-family: Kaushan Script;
+src: url(fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+}
+@font-face {
+font-family: Open Sans;
+src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
 h1, .navbar-brand {
 	font-family:  'Kaushan Script', cursive;
 }
