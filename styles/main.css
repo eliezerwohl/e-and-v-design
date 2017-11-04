@@ -254,8 +254,12 @@ input:focus, textarea:focus {
 	float: left;
 }
 
+#contact .message span {
+	margin-bottom: 15px;
+}
+
 footer {
-	min-height: 40px;
+	padding: 20px 0px;
 	font-size: 12px;
 }
 

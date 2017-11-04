@@ -37,6 +37,8 @@ $(".navbar-brand").on("click", function() {
   $("#bs-example-navbar-collapse-1").slideUp("fast");
 });
 $( document ).ready(function() {
+	ajaxCall();
+
   scrollFunction()
 	var aboutUs = document.getElementById("aboutUs");
 	var portfolio = document.getElementById("portfolio");
@@ -66,3 +68,40 @@ $( document ).ready(function() {
 		}
 	});
 }); 
+
+function ajaxCall(){
+
+$("#submit").click(function(e){
+	e.preventDefault()
+	debugger
+var name = $("#name").val();
+var email = $("#email").val();
+var message = $("#message").val();
+// Returns successful data submission message when the entered information is stored in database.
+var dataString = 'name='+ name + '&email='+ email + '&message='+ message;
+$(".message").empty();
+if(name==''||email==''||message=='')
+{
+
+$(".message").append("<span class='warning'>Please fill all fields</span>");
+}
+else
+{
+// AJAX Code To Submit Form.
+$.ajax({
+type: "POST",
+url: "form.php",
+data: dataString,
+cache: false,
+success: function(result){
+	$("#name").val("");
+$("#email").val("");
+$("#message").val("");
+$(".message").append("<span class='success'>Thank you for contacting us, we will be in touch soon</span>");
+}
+});
+}
+return false;
+});
+
+}

@@ -167,20 +167,21 @@
           <form name="contactform" method="post" action="/form.php">
             <div class="contact-container">
               <div class="col-sm-6">
-                <input  name="name" placeholder="name" class="col-xs-12">
+                <input  id="name" placeholder="name" class="col-xs-12">
               </div>
               <div class="col-sm-6">
-                <input name="email" placeholder="email" class="col-xs-12">
+                <input id="email" placeholder="email" class="col-xs-12">
               </div>
             </div>
             <div class="contact-container">
               <div class="col-sm-12">
-                <textarea  name="message" placeholder="message" rows="8" class="col-xs-12"></textarea>
+                <textarea  id="message" placeholder="message" rows="8" class="col-xs-12"></textarea>
               </div>
             </div>
             <div class="contact-container">
               <div class="col-sm-12 text-center">
-                <button type="submit" class="btn btn-md btn-default">
+              <div class="message text-center"></div>
+                <button id="submit" type="submit" class="btn btn-md btn-default">
                 Submit
                 </button>
               </div>
