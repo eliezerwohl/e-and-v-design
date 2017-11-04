@@ -61,7 +61,7 @@ p {
   min-height: 100vh;
 }
 
-.elieNav, .navbar-header {
+.navbar-default, .navbar-header {
 	height:70px;
 }
 
@@ -109,9 +109,7 @@ p {
 	.navbar-brand {
 		font-size: 30px;
 	}
-	ul li {
-		font-size: 16px
-	}
+
 }
 
 .welcomeText { 
@@ -181,7 +179,7 @@ p {
 
 
 #contact {
-	min-height: calc(100vh - 80px);
+	margin-bottom: 50px;
 }
 
 input:focus, textarea:focus {
@@ -254,11 +252,16 @@ footer {
 }
 
 @media (max-width: 767px) {
+	#portfolio .col-sm-6, #contact .contentContainer {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
 
 	.active {
 		background-color: white;
 	}
-	.elieNav, .navbar-header {
+	.navbar-default, .navbar-header {
 		height:50px;
 		margin-top: 0px
 	}
