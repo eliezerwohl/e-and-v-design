@@ -179,7 +179,7 @@ p {
 
 
 #contact {
-	min-height: calc(100vh - 80px);
+	margin-bottom: 50px;
 }
 
 input:focus, textarea:focus {
