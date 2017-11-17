@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/>
-    <link rel="stylesheet"  type="text/css" href="styles/bootstrap.min.css">
-<!--     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
     <title>E and V Design | NJ Web Development</title>
     <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
   </head>
@@ -65,40 +61,61 @@
         <div id="portLink" class="bannerBackground banner col-sm-12">
           <h2>Our Work</h2>
         </div>
-        <div class="col-sm-12 workDiv">
-          <div class="col-sm-6">
-            <img src="img/esllc.jpg" class="img-responsive" alt="Eisenstein-Sirot Group website">
+          <div class="col-sm-12 workDiv">
+          <div class="col-sm-6 col-sm-push-6">
+            <img src="img/tmmt.jpg" class="img-responsive" alt="Millennial Mom Times website">
           </div>
-          <div class="col-sm-6">
-            <h3>Eisenstein-Sirot Group</h3>
-            <a target="_blank" href="http://esfgllc.com/">
-              <p>http://esfgllc.com/</p>
+          <div class="col-sm-6 col-sm-pull-6">
+            <h3>The Millennial Mom Times</h3>
+            <a target="_blank" href="https://www.millennialmomtimes.com/">
+              <p>www.millennialmomtimes.com</p>
             </a>
-            <p>Design Process included</p>
+            <p>Design and Development Process:</p>
             <ul>
-            <li>Responsive design</li>
-            <li>Fast implementation </li>
-            <li>Compatible with industry regulations</li></ul>
+              <li>Comparative analysis</li>
+              <li>Wireframes</li>
+              <li>Mockups</li>
+              <li>SEO</li>
+              <li>Coded custom WordPress site</li>
+              <li>Hosting</li>
+            </ul>
           </div>
         </div>
         <div class="col-sm-12 workDiv">
-          <div class="col-sm-6 col-sm-push-6">
+          <div class="col-sm-6">
             <img src="img/triangle.jpg" class="img-responsive" alt="Triangle Psychotherapies website">
           </div>
-          <div class="col-sm-6 col-sm-pull-6">
+          <div class="col-sm-6">
             <h3>Triangle Psychotherapies</h3>
             <a target="_blank" href="http://www.triangle-psychotherapy.com/">
               <p>www.triangle-psychotherapy.com/</p>
             </a>
-            <p>Design Process included</p>
+            <p>Design and Development Process</p>
             <ul>
               <li>Research</li>
               <li>Wireframes</li>
               <li>Mockups</li>
               <li>SEO</li>
               <li>Hosting</li>
-              <li>information architecture</li>
+              <li>Coded WordPress custom theme including ACF</li>
+              <li>Information architecture</li>
             </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 workDiv">
+          <div class="col-sm-6 col-sm-push-6">
+            <img src="img/esllc.jpg" class="img-responsive" alt="Eisenstein-Sirot Group website">
+          </div>
+          <div class="col-sm-6 col-sm-pull-6">
+            <h3>Eisenstein-Sirot Group</h3>
+            <a target="_blank" href="http://esfgllc.com/">
+              <p>http://esfgllc.com/</p>
+            </a>
+            <p>Design and Development Process</p>
+            <ul>
+            <li>Responsive design</li>
+            <li>Fast implementation </li>
+            <li>Compatible with industry regulations</li></ul>
           </div>
         </div>
         <div class="col-sm-12 workDiv">
@@ -108,14 +125,13 @@
           <div class="col-sm-6">
             <h3>Assisting Hands</h3>
             <p>&nbsp;</p>
-            <p>Development include</p>
+            <p>Development included</p>
             <ul>
               <li>WordPress maintenance and bug fixes</li>
               <li>Job application portal</li>
               <li>Payment portal</li>
               <li>SSL certification</li>
-            </ul>
-          
+            </ul> 
           </div>
         </div>
         <div class="col-sm-12 workDiv">
@@ -127,7 +143,7 @@
             <a target="_blank" href="http://www.libertyvicemusic.com/">
               <p>www.libertyvicemusic.com</p>
             </a>
-            <p>Design Process included</p>
+            <p>Design and Development Process</p>
             <ul>
               <li>Research</li>
               <li>Wireframes</li>
@@ -147,7 +163,7 @@
             <a target="_blank" href="http://www.bclsf.org/">
               <p>www.bclsf.org/</p>
             </a>
-            <p>Design Process included</p>                   
+            <p>Design and Development Process</p>                
             <ul>
               <li>UX research (included personas)</li>
               <li>Market research</li>
@@ -191,10 +207,10 @@
       </div>
     </div>
     <footer class="text-center">
-      &copy; 2017 E and V Design.  All rights reserved.
+      &copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
   </body>
 </html>
 

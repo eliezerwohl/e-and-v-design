@@ -194,16 +194,10 @@ p {
 #contact {
 	margin-bottom: 50px;
 }
-input, textarea {
-	  border:1px solid #CDCCDA ;
-	 
-}
+
 input:focus, textarea:focus {
 	outline:none;
-	border-color: #808080;
-
 }
-
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   opacity: .3;
