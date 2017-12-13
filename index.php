@@ -8,6 +8,16 @@
     <link rel="stylesheet" type="text/css" href="styles/main.min.css">
     <title>E and V Design | NJ Web Development</title>
     <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110468142-1');
+    </script>
+
   </head>
   <body>
     <nav class="navbar nav  navbar-default topNav navbar-fixed-top">
