@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/>
-    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
     <title>E and V Design | NJ Web Development</title>
     <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110468142-1');
+    </script> -->
+
   </head>
   <body>
     <nav class="navbar nav  navbar-default topNav navbar-fixed-top">
@@ -25,9 +37,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li ><a id="aboutUsButton" href="#aboutUs">About Us</a></li>
-            <li ><a id="portfolioButton" href="#portLink">Our Work</a></li>
-            <li ><a  id="contactButton" href="#contact">Contact</a></li>
+            <li ><a>Services</a></li>
+            <li ><a>Projects</a></li>
+            <li ><a>Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -37,141 +49,78 @@
     <div id="home" class="welcomeBackground parent">
       <div class="welcomeDiv">
         <div class="child">
-          <h1>E and V</h1>
-          <h1>Design</h1>
+          <h1>E and V <span style = "display: block; margin-top: 30px;">Design</span>
+          </h1>
+          <img class="center-text" src="img/logo.png">
         </div>
       </div>
     </div>
     <!--   tools used side projects  social contact -->
     <div id="main">
-      <div id="aboutUs" class="container">
-        <div  class="text-center bannerBackground banner col-sm-12">
-          <h2> About Us</h2>
+      <div id="aboutUs" class="container gray">
+        <div  class="text-center banner col-sm-12">
+          <h2>About</h2>
         </div>
         <div class="contentContainer col-md-8 col-md-offset-2">
           <p>
-            Located in Edison, NJ, E and V Design combines years of art and design experience with technical wizardry. We create unique website experiences focused on business and customer needs. Our services cover the full-range of website development, including visual design, interaction design, interface design, UX, front-end development, back-end development, and search engine optimization (SEO). All designs are responsive to display equally well on desktop, tablet, and mobile. We also create custom Wordpress sites which offer you the flexibility to easily edit and add content to your site while giving you a unique design.
-          <p>
-            <br>
-          <p>We offer competitive pricing depending on the size and scope of your project. As a a small business we enjoy forming close relationships with our clients during the design process and offer longer term maintenance plans. We are invested in your project and want your business to succeed!
+            We build unique custom sites for you and your business with an emphasis on relationships. We believe that design is a relationship not only between your website and your customers but between us during the design and development process. That’s why we take the time to talk to our clients and are not afraid of working out the details of a project. Our goal is for you and your business to have a website that reflects your personal style while also appealing to your user base. The way to do that is to include in the design conversation.
           </p>
         </div>
       </div>
-      <div id="portfolio" class="container">
-        <div id="portLink" class="bannerBackground banner col-sm-12">
-          <h2>Our Work</h2>
+      <div class="container text-center gray">
+        <div class="banner col-sm-12">
+          <h2>Services</h2>
         </div>
-          <div class="col-sm-12 workDiv">
-          <div class="col-sm-6 col-sm-push-6">
-            <img src="img/tmmt.jpg" class="img-responsive" alt="Millennial Mom Times website">
+        <div class="col-sm-12 service">
+          <div class="col-md-4">
+            <img src="img/service-design.png">
+            <p>Design</p>
           </div>
-          <div class="col-sm-6 col-sm-pull-6">
-            <h3>The Millennial Mom Times</h3>
-            <a target="_blank" href="https://www.millennialmomtimes.com/">
-              <p>www.millennialmomtimes.com</p>
-            </a>
-            <p>Design and Development Process:</p>
-            <ul>
-              <li>Comparative analysis</li>
-              <li>Wireframes</li>
-              <li>Mockups</li>
-              <li>SEO</li>
-              <li>Coded custom WordPress site</li>
-              <li>Hosting</li>
-            </ul>
+          <div class="col-md-4">
+            <img src="img/service-dev.png">
+            <p>Development</p> 
+          </div>
+          <div class="col-md-4">
+            <img src="img/service-seo.png">
+            <p>SEO</p>
           </div>
         </div>
-        <div class="col-sm-12 workDiv">
-          <div class="col-sm-6">
-            <img src="img/triangle.jpg" class="img-responsive" alt="Triangle Psychotherapies website">
+      </div>
+      <div id="clients-say" class="container text-center">
+        <div id="aboutUs" class="container">
+          <div class="text-center banner col-sm-12">
+            <h2>Clients Say...</h2>
           </div>
-          <div class="col-sm-6">
-            <h3>Triangle Psychotherapies</h3>
-            <a target="_blank" href="http://www.triangle-psychotherapy.com/">
-              <p>www.triangle-psychotherapy.com/</p>
-            </a>
-            <p>Design and Development Process</p>
-            <ul>
-              <li>Research</li>
-              <li>Wireframes</li>
-              <li>Mockups</li>
-              <li>SEO</li>
-              <li>Hosting</li>
-              <li>Coded WordPress custom theme including ACF</li>
-              <li>Information architecture</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-12 workDiv">
-          <div class="col-sm-6 col-sm-push-6">
-            <img src="img/esllc.jpg" class="img-responsive" alt="Eisenstein-Sirot Group website">
-          </div>
-          <div class="col-sm-6 col-sm-pull-6">
-            <h3>Eisenstein-Sirot Group</h3>
-            <a target="_blank" href="http://esfgllc.com/">
-              <p>http://esfgllc.com/</p>
-            </a>
-            <p>Design and Development Process</p>
-            <ul>
-            <li>Responsive design</li>
-            <li>Fast implementation </li>
-            <li>Compatible with industry regulations</li></ul>
-          </div>
-        </div>
-        <div class="col-sm-12 workDiv">
-          <div class="col-sm-6">
-            <img src="img/hands.jpg" class="img-responsive" alt="Assisting Hands website">
-          </div>
-          <div class="col-sm-6">
-            <h3>Assisting Hands</h3>
-            <p>&nbsp;</p>
-            <p>Development included</p>
-            <ul>
-              <li>WordPress maintenance and bug fixes</li>
-              <li>Job application portal</li>
-              <li>Payment portal</li>
-              <li>SSL certification</li>
-            </ul> 
-          </div>
-        </div>
-        <div class="col-sm-12 workDiv">
-          <div class="col-sm-6 col-sm-push-6">
-            <img src="img/libertyvice.jpg" class="img-responsive" alt="Liberty Vice website">
-          </div>
-          <div class="col-sm-6 col-sm-pull-6">
-            <h3>Liberty Vice</h3>
-            <a target="_blank" href="http://www.libertyvicemusic.com/">
-              <p>www.libertyvicemusic.com</p>
-            </a>
-            <p>Design and Development Process</p>
-            <ul>
-              <li>Research</li>
-              <li>Wireframes</li>
-              <li>Mockups</li>
-              <li>Coding</li>
-              <li>Hosting</li>
-            </ul>
-           
-          </div>
-        </div>
-        <div class="col-sm-12 workDiv">
-          <div class="col-sm-6">
-            <img src="img/library.jpg" class="img-responsive" alt="BCLSF website">
-          </div>
-          <div class="col-sm-6">
-            <h3>BCLSF</h3>
-            <a target="_blank" href="http://www.bclsf.org/">
-              <p>www.bclsf.org/</p>
-            </a>
-            <p>Design and Development Process</p>                
-            <ul>
-              <li>UX research (included personas)</li>
-              <li>Market research</li>
-              <li>Wireframes</li>
-              <li>Color mockups</li>
-              <li>Custom WP theme development included ACF</li>
-            </ul>
-            
+          <div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <p>Homsar's most distinct characteristic is his unusual manner of speaking, which has varied over time. His tone of voice is generally quite exaggerated, and he often begins sentences by wailing "DAaAAaaAAaaAAaa!". His speech tends to range from perfectly normal English to often random and disconnected phrases that have little to no connection to the scene.</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <p>Homsar's most distinct characteristic is his unusual manner of speaking, which has varied over time. His tone of voice is generally quite exaggerated, and he often begins sentences by wailing "DAaAAaaAAaaAAaa!". His speech tends to range from perfectly normal English to often random and disconnected phrases that have little to no connection to the scene.</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-8 col-md-offset-2">
+                   <p>Hsmsar's most distinct characteristic is his unusual manner of speaking, which has varied over time. His tone of voice is generally quite exaggerated, and he often begins sentences by wailing "DAaAAaaAAaaAAaa!". His speech tends to range from perfectly normal English to often random and disconnected phrases that have little to no connection to the scene.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -210,7 +159,7 @@
       &copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/main.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
 
