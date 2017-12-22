@@ -43,7 +43,7 @@ textarea {
 input:focus,
 textarea:focus {
     outline: 0;
-    border-color: grey
+    border:1.5px solid black;
 }
 
 ::-webkit-input-placeholder {
@@ -280,7 +280,8 @@ textarea:focus {
 
 footer {
     padding: 20px 0;
-    font-size: 12px
+    font-size: 12px;
+    background-color: #f8f8f8;
 }
 
 @media (max-width:767px) {
