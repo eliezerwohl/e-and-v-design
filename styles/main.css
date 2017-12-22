@@ -1,329 +1,343 @@
-@font-face {
-font-family: Kaushan Script;
-src: url(fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+#main a,
+#main button {
+    color: #775069
 }
-@font-face {
-font-family: Open Sans;
-src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+
+.container {
+	padding-right: 0px;
+	padding-left: 0px;
 }
-h1, .navbar-brand {
-	font-family:  'Kaushan Script', cursive;
+
+#main {
+	color: #4e4a4a;
+}
+
+.navbar-brand,
+h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
 }
 
 h3 {
-	font-size: 28px;
+    font-size: 28px
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif
 }
 
 p {
-	-webkit-margin-before: 0em;
+    -webkit-margin-before: 0
 }
 
 .parent {
-  position: relative;
-}
-.child {
-	width: fit-content;
-	width: -moz-max-content;
-	width: -webkit-max-content;
-  width: -o-max-content;
-/*  ie fix*/
-  display: table;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: relative
 }
 
-#main a {
-	color: #600473;
+.child {
+    width: fit-content;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -o-max-content;
+    display: table;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
+
 #main a:hover p {
-	opacity: 0.7;
+    opacity: .7
 }
 
 #main a:hover {
-	text-decoration: none;
+    text-decoration: none
 }
 
 #main button {
-	background-color: white;
-	border:	1px solid #600473;
-	border-radius: 10px;
-	margin:5px;
-	color: #600473;
+    background-color: #fff;
+    border: 1px solid #600473;
+    border-radius: 10px;
+    margin: 5px
+}
+
+.gray {
+	background-color: #f8f8f8;
 }
 
 #main button:hover {
-	background-color: #600473;
+    background-color: #600473;
+    color: #fff
+}
+
+#main button:active {
+    text-decoration: underline
+}
+
+/*Navbar*/
+.navbar-default,
+.navbar-header {
+    height: 70px;
+}
+
+.navbar-default .navbar-nav>li>a {
 	color:white;
 }
 
-
-#main button:active {
-	text-decoration: underline;
-}
-
-
-.welcomeBackground {
-  background: url(../img/background.jpg) no-repeat ; 
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.navbar-default, .navbar-header {
-	height:70px;
-}
-
 .navbar-default .navbar-brand {
-	color:#600473;
+    color: #600473
 }
 
-.navbar-default .navbar-nav > li > a:focus {
-	color:#808080;
+.navbar-default .navbar-nav>li>a:focus {
+    color: grey
 }
 
 .navbar-default .navbar-brand:hover {
-	color: #600473;
-	opacity: 0.7;
+    color: #600473;
+    opacity: .7
 }
 
-
 .navbar ul li {
-	font-size: 16px;
-	color: #CDCCDA;
+    font-size: 16px;
+    color: #CDCCDA
 }
 
 .navbar ul li:hover {
-	background-color:transparent;
-	font-style: italic;
+    background-color: transparent;
+    font-style: italic
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-	font-weight: 700;
-	background-color: white;
-	color: #600473;
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    font-weight: 700;
+    background-color: #fff;
+    color: #600473
 }
 
-.navbar-nav, .navbar-header {
- 	margin-top: 10px
-}
-.navbar-brand{
-	font-size: 40px;
-	font-weight: 500;
+.navbar-header,
+.navbar-nav {
+    margin-top: 10px
 }
 
-@media (max-width: 900px) and (min-width: 767px){
-	.navbar-brand {
-		font-size: 30px;
-	}
-
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 500
 }
 
-.welcomeText { 
-  justify-content: center;
-  align-items: center;
+@media (max-width:900px) and (min-width:767px) {
+    .navbar-brand {
+        font-size: 30px
+    }
 }
+
+
+/*Front Page*/
+
+.welcomeBackground {
+    background: url(../img/header-image.png) no-repeat;
+    background-size: cover;
+    min-height: 100vh
+}
+
+
+
+.welcomeText {
+    justify-content: center;
+    align-items: center
+}
+
 .welcomeDiv {
-	height: 100%;
-	width: 100%;
-	padding-top: 50px;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px
 }
 
 .welcomeDiv h1 {
-	font-size: 100px;
-	margin-top: 0px;
-	margin-bottom: 30px;
-/*	font-weight: 700;*/
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 30px
 }
 
 .banner h2 {
-  font-size: 40px;
-  padding: 50px 0px;
-  float:none;
-  margin:0 auto;
-  /*color:#600473;*/
+    font-size: 40px;
+    padding: 50px 0;
+    float: none;
+    margin: 0 auto
 }
 
-.storyHeader h2 {
-	 padding-top: 40px;
-}
 
-.storyHeader h2 {
-  font-size: 90px;
-  margin-top: 0px;
-}
-
-.storyHeader h3 {
-	color:#6093b0
-}
 
 #main p {
-  font-size: 16px;
-  line-height: 1.4em;
+    font-size: 16px;
+    line-height: 1.4em
 }
 
 #main .workDiv {
-	padding: 20px 15px;
-	border-bottom: 1px solid 	#CDCCDA;
+    padding: 20px 15px;
+    border-bottom: 1px solid #CDCCDA
 }
 
 .bannerBackground {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center
 }
 
-#portfolio .portSection {
-  border-bottom: 1px rgb(221, 221, 221) solid
+.service img {
+	width:100px ;
+	height:auto;
 }
 
-#portfolio .portSection:last-child {
-	border-bottom: none;
-}
-
-#portfolio .workDiv:nth-child(2) {
-	padding-top: 0px;
-}
-
-
-#contact {
+.service {
 	margin-bottom: 50px;
 }
-input, textarea {
-	  border:1px solid #CDCCDA ;
-	 
-}
-input:focus, textarea:focus {
-	outline:none;
-	border-color: #808080;
+
+#clients-say {
+	background-color: #775069;
+	color: white;
 
 }
 
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  opacity: .3;
-  font-style: italic;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  opacity: .3;
-  font-style: italic;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  opacity: .3;
-  font-style: italic;
-}
-:-moz-placeholder { /* Firefox 18- */
-  opacity: .3;
-  font-style: italic;
+#clients-say  .carousel-inner .active {
+	background-color: transparent;
 }
 
-
-#main .container{
-	width: 100%;
-	margin:0px 0px;
+#clients-say  .carousel-inner {
+	padding-bottom: 50px;
 }
 
-#main .col-md-12, #main .container{
-	width: 100%;
+#contact {
+    margin-bottom: 50px
 }
 
-.scrollNav{
-  background:white;
-  border-bottom:1px solid #808080;
-  -webkit-box-shadow: 0 8px 6px -6px #808080;
-   -moz-box-shadow: 0 8px 6px -6px #808080;
-        box-shadow: 0 8px 6px -6px #808080;
-	}
+input,
+textarea {
+    border: 1px solid #CDCCDA
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+    border-color: grey
+}
+
+::-webkit-input-placeholder {
+    opacity: .3;
+    font-style: italic
+}
+
+::-moz-placeholder {
+    opacity: .3;
+    font-style: italic
+}
+
+:-ms-input-placeholder {
+    opacity: .3;
+    font-style: italic
+}
+
+:-moz-placeholder {
+    opacity: .3;
+    font-style: italic
+}
+
+#main .container {
+    margin: 0
+}
+
+#main .col-md-12,
+#main .container {
+    width: 100%
+}
+
+.scrollNav {
+    background: #fff;
+    border-bottom: 1px solid grey;
+    -webkit-box-shadow: 0 8px 6px -6px grey;
+    -moz-box-shadow: 0 8px 6px -6px grey;
+    box-shadow: 0 8px 6px -6px grey
+}
+
 .topNav {
-	       border-bottom:none;
-         background:transparent;
+    border-bottom: none;
+    background: 0 0
 }
-.brandShow { 
-	visibility: visible;
+
+.brandShow {
+    visibility: visible
 }
 
 .brandHide {
-	visibility: hidden;
+    visibility: hidden
 }
 
 #contact .col-md-12 {
-	text-decoration: none;
-	font-weight:600;
-} 
+    text-decoration: none;
+    font-weight: 600
+}
 
-#contact input, #contact textarea, #contact button {
-	margin-bottom: 30px;
+#contact button,
+#contact input,
+#contact textarea {
+    margin-bottom: 30px
 }
 
 .contact-container {
-	width: 100%;
-	float: left;
+    width: 100%;
+    float: left
 }
 
 #contact .message span {
-	margin-bottom: 15px;
+    margin-bottom: 15px
 }
 
 footer {
-	padding: 20px 0px;
-	font-size: 12px;
+    padding: 20px 0;
+    font-size: 12px
 }
 
-@media (max-width: 767px) {
-	#portfolio .col-sm-6, #contact .contentContainer {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-
-	.welcomeBackground {
-		margin-top: 50px;
-		min-height: calc(100vh - 50px);
-
-	}
-
-
-	.active {
-		background-color: white;
-	}
-	.navbar-default, .navbar-header {
-		height:50px;
-		margin-top: 0px
-	}
-	.navbar-brand {
-		font-size: 2em;
-	}
-	.welcomeDiv h1 {
-/*		margin-top: 20vh;*/
-		font-size: 60px;
-	}
-
-	.welcomeDiv h1:nth-child(2){
-		margin-top: 40px
-	}
-
-  .welcomeDiv h2 {
-		font-size: 25px;	
-	}	
-	.brandHide {
-		visibility: visible;
-	}
-	.container-fluid {
-		background:white;
-    border-bottom:1px solid #808080;
-	}
-
-	.banner h2 {
-		font-size: 36px;
-	}
-
-	h3 {
-		font-size: 26px;
-	}
-
+@media (max-width:767px) {
+    #contact .contentContainer,
+    #portfolio .col-sm-6 {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .welcomeBackground {
+        margin-top: 50px;
+        min-height: calc(100vh - 50px)
+    }
+    .active {
+        background-color: #fff
+    }
+    .navbar-default,
+    .navbar-header {
+        height: 50px;
+        margin-top: 0
+    }
+    .navbar-brand {
+        font-size: 2em
+    }
+    .welcomeDiv h1 {
+        font-size: 60px
+    }
+    .welcomeDiv h1:nth-child(2) {
+        margin-top: 40px
+    }
+    .welcomeDiv h2 {
+        font-size: 25px
+    }
+    .brandHide {
+        visibility: visible
+    }
+    .container-fluid {
+        background: #fff;
+        border-bottom: 1px solid grey
+    }
+    .banner h2 {
+        font-size: 36px
+    }
+    h3 {
+        font-size: 26px
+    }
 }
-
