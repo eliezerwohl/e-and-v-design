@@ -43,7 +43,7 @@ textarea {
 input:focus,
 textarea:focus {
     outline: 0;
-    border-color: grey
+    border:1.5px solid black;
 }
 
 ::-webkit-input-placeholder {
@@ -112,10 +112,15 @@ textarea:focus {
     height: 70px;
 }
 
+
+
 .navbar-default .navbar-nav>li>a {
 	color:white;
 }
 
+.scrollNav .navbar-nav>li>a {
+	color:#775069;
+}
 .navbar-default .navbar-brand {
     color: #775069
 }
@@ -280,7 +285,8 @@ textarea:focus {
 
 footer {
     padding: 20px 0;
-    font-size: 12px
+    font-size: 12px;
+    background-color: #f8f8f8;
 }
 
 @media (max-width:767px) {
