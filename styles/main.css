@@ -112,10 +112,15 @@ textarea:focus {
     height: 70px;
 }
 
+
+
 .navbar-default .navbar-nav>li>a {
 	color:white;
 }
 
+.scrollNav .navbar-nav>li>a {
+	color:#775069;
+}
 .navbar-default .navbar-brand {
     color: #775069
 }
