@@ -1,219 +1,43 @@
-#main a,
-#main button {
-    color: #775069
-}
+/*Bootstrap Overwrite*/
 
 .container {
-	padding-right: 0px;
+  width: 100%;
+  margin: 0;
+  padding-right: 0px;
 	padding-left: 0px;
-}
-
-#main {
-	color: #4e4a4a;
 }
 
 .navbar-brand,
 h1 {
-    font-family: 'PT Sans Narrow', sans-serif;
-    color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+}
+
+h2, #main {
+	color: #4e4a4a;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 50px 0;
+  float: none;
+  margin: 0 auto
 }
 
 h3 {
-    font-size: 28px
+  font-size: 28px
 }
 
 body {
     font-family: 'Open Sans', sans-serif
 }
-
 p {
-    -webkit-margin-before: 0
-}
-
-.parent {
-    position: relative
-}
-
-.child {
-    width: fit-content;
-    width: -moz-max-content;
-    width: -webkit-max-content;
-    width: -o-max-content;
-    display: table;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#main a:hover p {
-    opacity: .7
-}
-
-#main a:hover {
-    text-decoration: none
-}
-
-#main button {
-    background-color: #fff;
-    border: 1px solid #600473;
-    border-radius: 10px;
-    margin: 5px
-}
-
-.gray {
-	background-color: #f8f8f8;
-}
-
-#main button:hover {
-    background-color: #600473;
-    color: #fff
-}
-
-#main button:active {
-    text-decoration: underline
-}
-
-/*Navbar*/
-.navbar-default,
-.navbar-header {
-    height: 70px;
-}
-
-.navbar-default .navbar-nav>li>a {
-	color:white;
-}
-
-.navbar-default .navbar-brand {
-    color: #600473
-}
-
-.navbar-default .navbar-nav>li>a:focus {
-    color: grey
-}
-
-.navbar-default .navbar-brand:hover {
-    color: #600473;
-    opacity: .7
-}
-
-.navbar ul li {
-    font-size: 16px;
-    color: #CDCCDA
-}
-
-.navbar ul li:hover {
-    background-color: transparent;
-    font-style: italic
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    font-weight: 700;
-    background-color: #fff;
-    color: #600473
-}
-
-.navbar-header,
-.navbar-nav {
-    margin-top: 10px
-}
-
-.navbar-brand {
-    font-size: 40px;
-    font-weight: 500
-}
-
-@media (max-width:900px) and (min-width:767px) {
-    .navbar-brand {
-        font-size: 30px
-    }
-}
-
-
-/*Front Page*/
-
-.welcomeBackground {
-    background: url(../img/header-image.png) no-repeat;
-    background-size: cover;
-    min-height: 100vh
-}
-
-
-
-.welcomeText {
-    justify-content: center;
-    align-items: center
-}
-
-.welcomeDiv {
-    height: 100%;
-    width: 100%;
-    padding-top: 50px
-}
-
-.welcomeDiv h1 {
-    font-size: 100px;
-    margin-top: 0;
-    margin-bottom: 30px
-}
-
-.banner h2 {
-    font-size: 40px;
-    padding: 50px 0;
-    float: none;
-    margin: 0 auto
-}
-
-
-
-#main p {
-    font-size: 16px;
-    line-height: 1.4em
-}
-
-#main .workDiv {
-    padding: 20px 15px;
-    border-bottom: 1px solid #CDCCDA
-}
-
-.bannerBackground {
-    display: flex;
-    align-items: center
-}
-
-.service img {
-	width:100px ;
-	height:auto;
-}
-
-.service {
-	margin-bottom: 50px;
-}
-
-#clients-say {
-	background-color: #775069;
-	color: white;
-
-}
-
-#clients-say  .carousel-inner .active {
-	background-color: transparent;
-}
-
-#clients-say  .carousel-inner {
-	padding-bottom: 50px;
-}
-
-#contact {
-    margin-bottom: 50px
+  -webkit-margin-before: 0
 }
 
 input,
 textarea {
-    border: 1px solid #CDCCDA
+    border: 1px solid #4e4a4a;
 }
 
 input:focus,
@@ -242,14 +66,176 @@ textarea:focus {
     font-style: italic
 }
 
-#main .container {
-    margin: 0
+.gray {
+	background-color: #f8f8f8;
 }
 
-#main .col-md-12,
-#main .container {
-    width: 100%
+/*Main*/
+
+#main a,
+#main button {
+    color: #775069
 }
+
+#main a:hover p {
+    opacity: .7
+}
+
+#main a:hover {
+    text-decoration: none
+}
+
+#main p {
+  font-size: 16px;
+  line-height: 1.4em
+}
+
+#main button {
+    background-color: #fff;
+    border: 1px solid #775069;
+    border-radius: 10px;
+    margin: 5px
+}
+
+#main button:hover {
+  background-color: #775069;
+  color: #fff
+}
+
+#main button:active {
+  text-decoration: underline
+}
+
+/*Navbar*/
+.navbar-default,
+.navbar-header {
+    height: 70px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:white;
+}
+
+.navbar-default .navbar-brand {
+    color: #775069
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: grey
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #775069;
+    opacity: .7
+}
+
+.navbar ul li {
+    font-size: 16px;
+    color: #4e4a4a;
+}
+
+.navbar ul li:hover {
+    background-color: transparent;
+    font-style: italic
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    font-weight: 700;
+    background-color: #fff;
+    color: #775069
+}
+
+.navbar-header,
+.navbar-nav {
+    margin-top: 10px
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 500
+}
+
+@media (max-width:900px) and (min-width:767px) {
+    .navbar-brand {
+        font-size: 30px
+    }
+}
+
+
+/*Front Page*/
+#front .welcomeBackground {
+    background: url(../img/header-image.png) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.welcomeBackground .child {
+    width: fit-content;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -o-max-content;
+    display: table;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.welcomeBackground .welcomeText {
+    justify-content: center;
+    align-items: center
+}
+
+.welcomeBackground .welcomeDiv {
+  height: 100%;
+  width: 100%;
+  padding-top: 50px
+}
+
+.welcomeDiv h1 {
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+#front .service img {
+	width:100px ;
+	height:auto;
+}
+
+#front .service {
+	margin-bottom: 50px;
+}
+
+#front #clients-say  {
+	background-color: #775069;
+	color: white;
+}
+
+#front #clients-say h2 {
+	color: white;
+}
+
+#front #clients-say  .carousel-inner .active {
+	background-color: transparent;
+}
+
+#front #clients-say  .carousel-inner {
+	padding-bottom: 50px;
+}
+
+#front #contact {
+    margin-bottom: 50px
+}
+
+
+
 
 .scrollNav {
     background: #fff;

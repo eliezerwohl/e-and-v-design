@@ -21,7 +21,7 @@
     </script> -->
 
   </head>
-  <body>
+  <body id="front">
     <nav class="navbar nav  navbar-default topNav navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,10 +46,10 @@
       </div>
       <!-- /.container-fluid -->
     </nav>
-    <div id="home" class="welcomeBackground parent">
+    <div class="welcomeBackground">
       <div class="welcomeDiv">
         <div class="child">
-          <h1>E and V <span style = "display: block; margin-top: 30px;">Design</span>
+          <h1>E and V <span style="display: block; margin-top: 30px;">Design</span>
           </h1>
           <img class="center-text" src="img/logo.png">
         </div>
@@ -58,7 +58,7 @@
     <!--   tools used side projects  social contact -->
     <div id="main">
       <div id="aboutUs" class="container gray">
-        <div  class="text-center banner col-sm-12">
+        <div  class="text-center col-sm-12">
           <h2>About</h2>
         </div>
         <div class="contentContainer col-md-8 col-md-offset-2">
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="container text-center gray">
-        <div class="banner col-sm-12">
+        <div class="col-sm-12">
           <h2>Services</h2>
         </div>
         <div class="col-sm-12 service">
@@ -88,7 +88,7 @@
       </div>
       <div id="clients-say" class="container text-center">
         <div id="aboutUs" class="container">
-          <div class="text-center banner col-sm-12">
+          <div class="text-center col-sm-12">
             <h2>Clients Say...</h2>
           </div>
           <div>
@@ -125,7 +125,7 @@
         </div>
       </div>
       <div id="contact" class="container text-center">
-        <div class="banner bannerBackground col-sm-12">
+        <div class="col-sm-12">
           <h2>Contact</h2>
         </div>
         <div class="contentContainer col-md-8 col-sm-12 col-md-offset-2">
