@@ -51,16 +51,14 @@
         <div class="child">
           <h1>E and V <span style="display: block; margin-top: 30px;">Design</span>
           </h1>
-          <img class="center-text" src="img/logo.png">
+          <img id ="logo" class="center-text" src="img/logo-5.png">
         </div>
       </div>
     </div>
     <!--   tools used side projects  social contact -->
     <div id="main">
       <div id="aboutUs" class="container gray">
-        <div  class="text-center col-sm-12">
-          <h2>About</h2>
-        </div>
+        <h2>About</h2>
         <div class="contentContainer col-md-8 col-md-offset-2">
           <p>
             Located in Edison, NJ, E and V Design combines years of art and design experience with technical wizardry. We create unique website experiences focused on business and customer needs. Our services cover the full-range of website development, including visual design, interaction design, interface design, UX, front-end development, back-end development, and search engine optimization (SEO). All designs are responsive to display equally well on desktop, tablet, and mobile. We also create custom Wordpress sites which offer you the flexibility to easily edit and add content to your site while giving you a unique design.
@@ -71,23 +69,21 @@
         </div>
       </div>
       <div class="container text-center gray">
-        <div class="col-sm-12">
-          <h2>Services</h2>
-        </div>
-        <div class="col-sm-12 service">
-          <div class="col-md-3">
+        <h2>Services</h2>
+        <div class="col-md-12 service">
+          <div class="col-sm-3 service-container col-xs-6">
             <a href="/newdesign/services.php#design"><img src="img/service-design.png">
             <p>Design</p></a>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-3 service-container col-xs-6">
             <a href="/newdesign/services.php#ux"><img src="img/service-ux.png">
             <p>User Experience</p></a>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-3 service-container col-xs-6">
             <a href="/newdesign/services.php#dev"><img src="img/service-dev.png">
             <p>Development</p> </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-3 service-container col-xs-6">
             <a href="/newdesign/services.php#seo"><img src="img/service-seo.png">
             <p>SEO</p></a>
           </div>
@@ -104,19 +100,24 @@
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <div class="col-sm-8 col-sm-offset-2">
-                    <p>Homsar's most distinct characteristic is his unusual manner of speaking, which has varied over time. His tone of voice is generally quite exaggerated, and he often begins sentences by wailing "DAaAAaaAAaaAAaa!". His speech tends to range from perfectly normal English to often random and disconnected phrases that have little to no connection to the scene.</p>
+                    <p class="quote">"Working with E and V Design was a great experience. The website was done on time, and on budget. While interviewing employees, the website is often the first thing that they mention."</p>
+                    <p class="attr">Gianna F.</p>
+                    <p class="attr">Eisenstein-Sirot Group</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="col-sm-8 col-sm-offset-2">
-                    <p>Homsar's most distinct characteristic is his unusual manner of speaking, which has varied over time. His tone of voice is generally quite exaggerated, and he often begins sentences by wailing "DAaAAaaAAaaAAaa!". His speech tends to range from perfectly normal English to often random and disconnected phrases that have little to no connection to the scene.</p>
+                   <p class="quote">"I've worked with Elie for a few years. He's alway been responsive to my calls and emails, willing to do whatever it takes to get the job done. He is a major asset to my business."</p>
+                    <p class="attr">David K.</p>
+                    <p class="attr">Assisting Hands of Livingston</p>
+                    
                   </div>
                 </div>
-                <div class="item">
+               <!--  <div class="item">
                   <div class="col-md-8 col-md-offset-2">
                    <p>Hsmsar's most distinct characteristic is his unusual manner of speaking, which has varied over time. His tone of voice is generally quite exaggerated, and he often begins sentences by wailing "DAaAAaaAAaaAAaa!". His speech tends to range from perfectly normal English to often random and disconnected phrases that have little to no connection to the scene.</p>
                   </div>
-                </div>
+                </div> -->
               </div>
               <!-- Controls -->
               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">

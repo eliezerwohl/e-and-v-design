@@ -7,6 +7,17 @@
 	padding-left: 0px;
 }
 
+@media (max-width: 767px){
+#page .container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#page .img-holder {
+  margin-bottom: 25px;
+}
+}
+
 .navbar-brand,
 h1 {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -114,8 +125,9 @@ textarea:focus {
 
 #page #contact p {
     margin-bottom: 50px;
-    padding: 0px 15px;
+  
 }
+
 
 /*Navbar*/
 .navbar-default,
@@ -134,13 +146,14 @@ textarea:focus {
 
 .navbar-default .navbar-nav>li>a {
 	color:white;
+    color:#f8f8f8;
 }
 
 .scrollNav .navbar-nav>li>a {
 	color:#775069;
 }
 .navbar-default .navbar-brand {
-    color: #775069
+    color: #433544;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
@@ -188,6 +201,11 @@ textarea:focus {
 
 
 /*Front Page*/
+
+#logo {
+    height: 70px;
+    width: auto;
+}
 #front .welcomeBackground {
     background: url(../img/header-image.png) no-repeat;
     background-size: cover;
@@ -228,8 +246,12 @@ textarea:focus {
 }
 
 #front .service img {
-	width:100px ;
-	height:auto;
+	width:auto;
+	height:100px;
+}
+
+#front .service .service-container {
+    margin-bottom: 50px;
 }
 
 #front .service a:hover {
@@ -257,8 +279,19 @@ textarea:focus {
 	padding-bottom: 50px;
 }
 
+#front #clients-say .quote {
+    font-style: italic;
+    text-align: left;
+}
+
+#front #clients-say .attr {
+    font-size: 12px;
+    text-align: right;
+    margin-bottom:0px;
+}
+
 @media (max-width: 760px){
-	#front #clients-say  .carousel-inner p {
+	#front #clients-say  .carousel-inner .item {
 		padding-top: 50px;
 	}
 }
