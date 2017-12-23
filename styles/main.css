@@ -112,7 +112,14 @@ textarea:focus {
     height: 70px;
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+	color: #f8f8f8;
+	 font-style: italic;
+}
 
+.scrollNav  .navbar-nav>li>a:hover {
+	color: #4e4a4a;
+}
 
 .navbar-default .navbar-nav>li>a {
 	color:white;
@@ -214,6 +221,10 @@ textarea:focus {
 	height:auto;
 }
 
+#front .service a:hover {
+	opacity: .7;
+}
+
 #front .service {
 	margin-bottom: 50px;
 }
@@ -233,6 +244,12 @@ textarea:focus {
 
 #front #clients-say  .carousel-inner {
 	padding-bottom: 50px;
+}
+
+@media (max-width: 760px){
+	#front #clients-say  .carousel-inner p {
+		padding-top: 50px;
+	}
 }
 
 #front #contact {
