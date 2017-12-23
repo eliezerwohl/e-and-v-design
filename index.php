@@ -32,14 +32,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a  id="homeButton" class="navbar-brand brandHide" href="#home">E and V Design</a>
+          <a id="homeButton" class="navbar-brand brandHide" href="/newdesign/index.php">E and V Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li ><a>Services</a></li>
-            <li ><a>Projects</a></li>
-            <li ><a>Contact</a></li>
+           <ul class="nav navbar-nav navbar-right">
+            <li><a href="/newdesign/services.php">Services</a></li>
+            <li><a href="/newdesign/projects.php">Projects</a></li>
+            <li><a href="/newdesign/contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -63,7 +63,10 @@
         </div>
         <div class="contentContainer col-md-8 col-md-offset-2">
           <p>
-            We build unique custom sites for you and your business with an emphasis on relationships. We believe that design is a relationship not only between your website and your customers but between us during the design and development process. That’s why we take the time to talk to our clients and are not afraid of working out the details of a project. Our goal is for you and your business to have a website that reflects your personal style while also appealing to your user base. The way to do that is to include in the design conversation.
+            Located in Edison, NJ, E and V Design combines years of art and design experience with technical wizardry. We create unique website experiences focused on business and customer needs. Our services cover the full-range of website development, including visual design, interaction design, interface design, UX, front-end development, back-end development, and search engine optimization (SEO). All designs are responsive to display equally well on desktop, tablet, and mobile. We also create custom Wordpress sites which offer you the flexibility to easily edit and add content to your site while giving you a unique design.
+          </p>
+          <p>
+            We offer competitive pricing depending on the size and scope of your project. As a a small business we enjoy forming close relationships with our clients during the design process and offer longer term maintenance plans. We are invested in your project and want your business to succeed!</p>
           </p>
         </div>
       </div>
@@ -73,19 +76,19 @@
         </div>
         <div class="col-sm-12 service">
           <div class="col-md-3">
-            <a href="#"><img src="img/service-design.png">
+            <a href="/newdesign/services.php#design"><img src="img/service-design.png">
             <p>Design</p></a>
           </div>
           <div class="col-md-3">
-            <a href="#"><img src="img/service-ux.png">
+            <a href="/newdesign/services.php#ux"><img src="img/service-ux.png">
             <p>User Experience</p></a>
           </div>
           <div class="col-md-3">
-            <a href="#"><img src="img/service-dev.png">
+            <a href="/newdesign/services.php#dev"><img src="img/service-dev.png">
             <p>Development</p> </a>
           </div>
           <div class="col-md-3">
-            <a href="#"><img src="img/service-seo.png">
+            <a href="/newdesign/services.php#seo"><img src="img/service-seo.png">
             <p>SEO</p></a>
           </div>
         </div>
