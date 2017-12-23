@@ -63,7 +63,10 @@
         </div>
         <div class="contentContainer col-md-8 col-md-offset-2">
           <p>
-            We build unique custom sites for you and your business with an emphasis on relationships. We believe that design is a relationship not only between your website and your customers but between us during the design and development process. That’s why we take the time to talk to our clients and are not afraid of working out the details of a project. Our goal is for you and your business to have a website that reflects your personal style while also appealing to your user base. The way to do that is to include in the design conversation.
+            Located in Edison, NJ, E and V Design combines years of art and design experience with technical wizardry. We create unique website experiences focused on business and customer needs. Our services cover the full-range of website development, including visual design, interaction design, interface design, UX, front-end development, back-end development, and search engine optimization (SEO). All designs are responsive to display equally well on desktop, tablet, and mobile. We also create custom Wordpress sites which offer you the flexibility to easily edit and add content to your site while giving you a unique design.
+          </p>
+          <p>
+            We offer competitive pricing depending on the size and scope of your project. As a a small business we enjoy forming close relationships with our clients during the design process and offer longer term maintenance plans. We are invested in your project and want your business to succeed!</p>
           </p>
         </div>
       </div>
