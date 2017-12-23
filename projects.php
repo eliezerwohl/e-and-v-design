@@ -58,7 +58,7 @@
           <div class="col-sm-6 col-sm-pull-6">
             <h3>The Millennial Mom Times</h3>
             <a target="_blank" href="https://www.millennialmomtimes.com/">
-              <p>www.millennialmomtimes.com</p>
+              <p>millennialmomtimes.com</p>
             </a>
             <p>Design and Development Process:</p>
             <ul>
@@ -78,7 +78,7 @@
           <div class="col-sm-6">
             <h3>Triangle Psychotherapies</h3>
             <a target="_blank" href="http://www.triangle-psychotherapy.com/">
-              <p>www.triangle-psychotherapy.com/</p>
+              <p>triangle-psychotherapy.com</p>
             </a>
             <p>Design and Development Process</p>
             <ul>
@@ -99,7 +99,7 @@
           <div class="col-sm-6 col-sm-pull-6">
             <h3>Eisenstein-Sirot Group</h3>
             <a target="_blank" href="http://esfgllc.com/">
-              <p>http://esfgllc.com/</p>
+              <p>esfgllc.com</p>
             </a>
             <p>Design and Development Process</p>
             <ul>
