@@ -312,10 +312,25 @@ textarea:focus {
 }
 
 
+
 /*Work*/
 .workDiv { 
 	padding: 20px 15px;
   border-bottom: 1px solid #CDCCDA;
+}
+
+
+/*Services*/
+
+#services h3 {
+    margin-top: 0px;
+}
+
+.img-holder {
+    text-align: center;
+}
+.img-holder .img-responsive {
+    display: inline;
 }
 footer {
     padding: 20px 0;

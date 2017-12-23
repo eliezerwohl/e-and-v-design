@@ -47,45 +47,67 @@
       <!-- /.container-fluid -->
     </nav>
     <div id ="main">
-     <div id="contact" class="container">
-        <h2>Contact</h2>
-          <div class="col-md-8 col-md-offset-2">
-          	<p>As a local design company we enjoy getting to know our clients and work to create websites that reflect your business’ unique needs. With a background in User Experience and Information Science we specialize in balancing business and customer needs along with cutting edge development and coding. Contact us today!</p>
-          	<div id="contact">
-          	<form name="contactform" method="post" action="/form.php">
-            <div class="contact-container">
-              <div class="col-sm-6">
-                <input  id="name" placeholder="name" class="col-xs-12">
-              </div>
-              <div class="col-sm-6">
-                <input id="email" placeholder="email" class="col-xs-12">
-              </div>
-            </div>
-            <div class="contact-container">
-              <div class="col-sm-12">
-                <textarea  id="message" placeholder="message" rows="8" class="col-xs-12"></textarea>
-              </div>
-            </div>
-            <div class="contact-container">
-              <div class="col-sm-12 text-center">
-              <div class="message text-center"></div>
-                <button id="submit" type="submit" class="btn btn-md btn-default">
-                Submit
-                </button>
-              </div>
-            </div>
-          </form>
-
-          </div>	
-
-         
-    </div></div></div>
+     <div id="services" class="container">
+     <div class="col-md-8 col-md-offset-2">
    
+          <h2>Services</h2>
+      
+          <div id="design" class="col-sm-12 workDiv">
+          <div class="col-sm-6 col-sm-push-6 img-holder">
+            <img src="img/service-design-lg.png" class="img-responsive" alt="Millennial Mom Times website">
+          </div>
+          <div class="col-sm-6 col-sm-pull-6">
+            <h3>Design</h3>
+            
+              <p>We’ll work with you through defining your site’s main purpose, collecting content, 
+and asset creation. 
+</p>
+          
+          </div>
+        </div>
+        <div id="ux" class="col-sm-12 workDiv">
+          <div class="col-sm-6 img-holder">
+            <img src="img/service-ux-lg.png" class="img-responsive" alt="Triangle Psychotherapies website">
+          </div>
+          <div class="col-sm-6">
+            <h3>UX</h3>
+            
+              <p>During the design process we focus on balancing your business needs with what is best for customers. For already established sites we offer user testing and content audit packages.</p>
+            
+          </div>
+        </div>
+        <div id="dev" class="col-sm-12 workDiv">
+          <div class="col-sm-6 col-sm-push-6 img-holder">
+            <img src="img/service-dev-lg.png" class="img-responsive" alt="Eisenstein-Sirot Group website">
+          </div>
+          <div class="col-sm-6 col-sm-pull-6">
+            <h3>Development</h3>
+            
+              <p>We create mobile responsive, streamlined code optimized for fast loading time and with https capability. We also offer a competitively prices hosting plan for sites designed by our team. </p>
+          
+          </div>
+        </div>
+        <div id="seo" class="col-sm-12 workDiv">
+          <div class="col-sm-6 img-holder">
+            <img src="img/service-seo-lg.png " class="img-responsive" alt="Assisting Hands website">
+          </div>
+          <div class="col-sm-6">
+            <h3>SEO</h3>
+            
+            <p>All are sites are Search Engine Optimized and we’ll show you how to properly tag your content in WordPress so it can be more easily cataloged by Google. We also will connect your site to Google Analytics so you can follow how your customers are finding and using your site.
+</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
     <footer class="text-center">
       &copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/location.js"></script>
    <!--  <script type="text/javascript" src="js/main.js"></script> -->
   </body>
 </html>

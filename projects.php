@@ -32,14 +32,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a  id="homeButton" class="navbar-brand" href="/index.php">E and V Design</a>
+          <a  id="homeButton" class="navbar-brand" href="/newdesign/index.php">E and V Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li ><a>Services</a></li>
-            <li ><a>Projects</a></li>
-            <li ><a>Contact</a></li>
+            <li><a href="/newdesign/services.php">Services</a></li>
+            <li><a href="/newdesign/projects.php">Projects</a></li>
+            <li><a href="/newdesign/contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->

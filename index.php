@@ -32,14 +32,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a  id="homeButton" class="navbar-brand brandHide" href="#home">E and V Design</a>
+          <a id="homeButton" class="navbar-brand brandHide" href="/newdesign/index.php">E and V Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li ><a>Services</a></li>
-            <li ><a>Projects</a></li>
-            <li ><a>Contact</a></li>
+           <ul class="nav navbar-nav navbar-right">
+            <li><a href="/newdesign/services.php">Services</a></li>
+            <li><a href="/newdesign/projects.php">Projects</a></li>
+            <li><a href="/newdesign/contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -76,19 +76,19 @@
         </div>
         <div class="col-sm-12 service">
           <div class="col-md-3">
-            <a href="#"><img src="img/service-design.png">
+            <a href="/newdesign/services.php#design"><img src="img/service-design.png">
             <p>Design</p></a>
           </div>
           <div class="col-md-3">
-            <a href="#"><img src="img/service-ux.png">
+            <a href="/newdesign/services.php#ux"><img src="img/service-ux.png">
             <p>User Experience</p></a>
           </div>
           <div class="col-md-3">
-            <a href="#"><img src="img/service-dev.png">
+            <a href="/newdesign/services.php#dev"><img src="img/service-dev.png">
             <p>Development</p> </a>
           </div>
           <div class="col-md-3">
-            <a href="#"><img src="img/service-seo.png">
+            <a href="/newdesign/services.php#seo"><img src="img/service-seo.png">
             <p>SEO</p></a>
           </div>
         </div>
