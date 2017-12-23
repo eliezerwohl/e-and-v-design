@@ -72,17 +72,21 @@
           <h2>Services</h2>
         </div>
         <div class="col-sm-12 service">
-          <div class="col-md-4">
-            <img src="img/service-design.png">
-            <p>Design</p>
+          <div class="col-md-3">
+            <a href="#"><img src="img/service-design.png">
+            <p>Design</p></a>
           </div>
-          <div class="col-md-4">
-            <img src="img/service-dev.png">
-            <p>Development</p> 
+          <div class="col-md-3">
+            <a href="#"><img src="img/service-ux.png">
+            <p>User Experience</p></a>
           </div>
-          <div class="col-md-4">
-            <img src="img/service-seo.png">
-            <p>SEO</p>
+          <div class="col-md-3">
+            <a href="#"><img src="img/service-dev.png">
+            <p>Development</p> </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#"><img src="img/service-seo.png">
+            <p>SEO</p></a>
           </div>
         </div>
       </div>
