@@ -48,10 +48,8 @@
     </nav>
     <div id ="main">
      <div id="portfolio" class="container">
-        <div id="portLink" class="bannerBackground banner col-sm-12">
           <h2>Our Work</h2>
-        </div>
-          <div class="col-sm-12 workDiv">
+          <div class="row workDiv">
           <div class="col-sm-6 col-sm-push-6">
             <img src="img/tmmt.jpg" class="img-responsive" alt="Millennial Mom Times website">
           </div>
@@ -71,7 +69,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-12 workDiv">
+        <div class="row workDiv">
           <div class="col-sm-6">
             <img src="img/triangle.jpg" class="img-responsive" alt="Triangle Psychotherapies website">
           </div>
@@ -92,7 +90,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-12 workDiv">
+        <div class="row workDiv">
           <div class="col-sm-6 col-sm-push-6">
             <img src="img/esllc.jpg" class="img-responsive" alt="Eisenstein-Sirot Group website">
           </div>
@@ -108,7 +106,7 @@
             <li>Compatible with industry regulations</li></ul>
           </div>
         </div>
-        <div class="col-sm-12 workDiv">
+        <div class="row workDiv">
           <div class="col-sm-6">
             <img src="img/hands.jpg" class="img-responsive" alt="Assisting Hands website">
           </div>

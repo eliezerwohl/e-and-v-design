@@ -1,28 +1,13 @@
 // var menuVar;
 // var current;
 
-function scrollFunction(){
-	console.log("Yup")
-  if($(this).scrollTop() > 0){   
-      $('.navbar-default').removeClass("topNav").addClass("scrollNav");   
-      $(".navbar-brand").removeClass("brandHide").addClass("brandShow");
-     } 
-  else { 
-    $('.navbar-default').removeClass("scrollNav").addClass("topNav");
-    $(".navbar-brand").removeClass("brandShow").addClass("brandHide");
-  }
-}
+
 
 $( document ).ready(function() {
 	ajaxCall();
-  scrollFunction();
-  $(document).scroll(function(){
-    scrollFunction()
-	});
 }); 
 
 function ajaxCall(){
-
 $("#submit").click(function(e){
 	e.preventDefault()
 var name = $("#name").val();

@@ -12,14 +12,13 @@
     <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-110468142-1');
-    </script> -->
-
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'UA-110468142-1');
+      </script> -->
   </head>
   <body id="page">
     <nav class="navbar nav  navbar-default scrollNav navbar-fixed-top">
@@ -47,68 +46,56 @@
       <!-- /.container-fluid -->
     </nav>
     <div id ="main">
-     <div id="services" class="container">
-     <div class="col-md-8 col-md-offset-2">
-   
+      <div id="services" class="container">
+        <div class="col-md-8 col-md-offset-2">
           <h2>Services</h2>
-      
-          <div id="design" class="col-sm-12 workDiv">
-          <div class="col-sm-6 col-sm-push-6 img-holder">
-            <img src="img/service-design-lg.png" class="img-responsive" alt="Millennial Mom Times website">
-          </div>
-          <div class="col-sm-6 col-sm-pull-6">
-            <h3>Design</h3>
-            
+          <div id="design" class="row workDiv">
+            <div class="col-sm-6 col-sm-push-6 img-holder">
+              <img src="img/service-design-lg.png" class="img-responsive" alt="Millennial Mom Times website">
+            </div>
+            <div class="col-sm-6 col-sm-pull-6">
+              <h3>Design</h3>
               <p>We’ll work with you through defining your site’s main purpose, collecting content, 
-and asset creation. 
-</p>
-          
+                and asset creation. 
+              </p>
+            </div>
           </div>
-        </div>
-        <div id="ux" class="col-sm-12 workDiv">
-          <div class="col-sm-6 img-holder">
-            <img src="img/service-ux-lg.png" class="img-responsive" alt="Triangle Psychotherapies website">
-          </div>
-          <div class="col-sm-6">
-            <h3>UX</h3>
-            
+          <div id="ux" class="row workDiv">
+            <div class="col-sm-6 img-holder">
+              <img src="img/service-ux-lg.png" class="img-responsive" alt="Triangle Psychotherapies website">
+            </div>
+            <div class="col-sm-6">
+              <h3>UX</h3>
               <p>During the design process we focus on balancing your business needs with what is best for customers. For already established sites we offer user testing and content audit packages.</p>
-            
+            </div>
           </div>
-        </div>
-        <div id="dev" class="col-sm-12 workDiv">
-          <div class="col-sm-6 col-sm-push-6 img-holder">
-            <img src="img/service-dev-lg.png" class="img-responsive" alt="Eisenstein-Sirot Group website">
-          </div>
-          <div class="col-sm-6 col-sm-pull-6">
-            <h3>Development</h3>
-            
+          <div id="dev" class="row workDiv">
+            <div class="col-sm-6 col-sm-push-6 img-holder">
+              <img src="img/service-dev-lg.png" class="img-responsive" alt="Eisenstein-Sirot Group website">
+            </div>
+            <div class="col-sm-6 col-sm-pull-6">
+              <h3>Development</h3>
               <p>We create mobile responsive, streamlined code optimized for fast loading time and with https capability. We also offer a competitively prices hosting plan for sites designed by our team. </p>
-          
+            </div>
           </div>
-        </div>
-        <div id="seo" class="col-sm-12 workDiv">
-          <div class="col-sm-6 img-holder">
-            <img src="img/service-seo-lg.png " class="img-responsive" alt="Assisting Hands website">
-          </div>
-          <div class="col-sm-6">
-            <h3>SEO</h3>
-            
-            <p>All are sites are Search Engine Optimized and we’ll show you how to properly tag your content in WordPress so it can be more easily cataloged by Google. We also will connect your site to Google Analytics so you can follow how your customers are finding and using your site.
-</p>
-            
+          <div id="seo" class="row workDiv">
+            <div class="col-sm-6 img-holder">
+              <img src="img/service-seo-lg.png " class="img-responsive" alt="Assisting Hands website">
+            </div>
+            <div class="col-sm-6">
+              <h3>SEO</h3>
+              <p>All are sites are Search Engine Optimized and we’ll show you how to properly tag your content in WordPress so it can be more easily cataloged by Google. We also will connect your site to Google Analytics so you can follow how your customers are finding and using your site.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-   </div>
     <footer class="text-center">
       &copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/location.js"></script>
-   <!--  <script type="text/javascript" src="js/main.js"></script> -->
+    <!--  <script type="text/javascript" src="js/main.js"></script> -->
   </body>
 </html>
-
