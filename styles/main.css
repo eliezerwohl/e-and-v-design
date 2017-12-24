@@ -1,180 +1,153 @@
 /*Bootstrap Overwrite*/
 
 #front .container {
-  width: 100%;
-  margin: 0;
-  padding-right: 0px;
-	padding-left: 0px;
+    width: 100%;
+    margin: 0;
+    padding-right: 0px;
+    padding-left: 0px;
 }
-
-@media (max-width: 767px){
-#page .container {
-  padding-right: 0px;
-  padding-left: 0px;
+@media (max-width: 767px) {
+    #page .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #page .img-holder {
+        margin-bottom: 25px;
+    }
 }
-
-#page .img-holder {
-  margin-bottom: 25px;
-}
-}
-
 .navbar-brand,
 h1 {
-  font-family: 'PT Sans Narrow', sans-serif;
-  color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
 }
-
-h2, #main {
-	color: #4e4a4a;
+h2,
+#main {
+    color: #4e4a4a;
 }
-
 h2 {
-	text-align: center;
-  font-size: 40px;
-  padding: 50px 0;
-  float: none;
-  margin: 0 auto
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 0;
+    float: none;
+    margin: 0 auto
 }
-
 h3 {
-  font-size: 28px
+    font-size: 28px
 }
-
 body {
     font-family: 'Open Sans', sans-serif
 }
 p {
-  -webkit-margin-before: 0
+    -webkit-margin-before: 0
 }
-
 input,
 textarea {
     border: 1px solid #4e4a4a;
 }
-
 input:focus,
 textarea:focus {
     outline: 0;
-    border:1.5px solid black;
+    border: 1.5px solid black;
 }
-
 ::-webkit-input-placeholder {
     opacity: .3;
     font-style: italic
 }
-
 ::-moz-placeholder {
     opacity: .3;
     font-style: italic
 }
-
 :-ms-input-placeholder {
     opacity: .3;
     font-style: italic
 }
-
 :-moz-placeholder {
     opacity: .3;
     font-style: italic
 }
-
 .gray {
-	background-color: #f8f8f8;
+    background-color: #f8f8f8;
 }
-
 /*Main*/
 
 #main a,
 #main button {
     color: #775069
 }
-
 #main a:hover p {
     opacity: .7
 }
-
 #main a:hover {
     text-decoration: none
 }
-
 #main p {
-  font-size: 16px;
-  line-height: 1.4em
+    font-size: 16px;
+    line-height: 1.4em
 }
-
 #main button {
     background-color: #fff;
     border: 1px solid #775069;
     border-radius: 10px;
     margin: 5px
 }
-
 #main button:hover {
-  background-color: #775069;
-  color: #fff
+    background-color: #775069;
+    color: #fff
 }
-
 #main button:active {
-  text-decoration: underline
+    text-decoration: underline
 }
-
 #page #main {
-    margin-top:80px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
-
 #page #contact p {
     margin-bottom: 50px;
-  
 }
-
-
+@media (max-width: 767px) {
+    #page #contact p {
+        margin-bottom: 50px;
+        padding: 0px 0px;
+    }
+}
 /*Navbar*/
+
 .navbar-default,
 .navbar-header {
     height: 70px;
 }
-
 .navbar-default .navbar-nav>li>a:hover {
-	color: #f8f8f8;
-	 font-style: italic;
+    color: #f8f8f8;
+    font-style: italic;
 }
-
-.scrollNav  .navbar-nav>li>a:hover {
-	color: #4e4a4a;
+.scrollNav .navbar-nav>li>a:hover {
+    color: #4e4a4a;
 }
-
 .navbar-default .navbar-nav>li>a {
-	color:white;
-    color:#f8f8f8;
+    color: white;
+    color: #f8f8f8;
 }
-
 .scrollNav .navbar-nav>li>a {
-	color:#775069;
+    color: #775069;
 }
 .navbar-default .navbar-brand {
     color: #433544;
 }
-
 .navbar-default .navbar-nav>li>a:focus {
     color: grey
 }
-
 .navbar-default .navbar-brand:hover {
     color: #775069;
     opacity: .7
 }
-
 .navbar ul li {
     font-size: 16px;
     color: #4e4a4a;
 }
-
 .navbar ul li:hover {
     background-color: transparent;
     font-style: italic
 }
-
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
@@ -182,24 +155,19 @@ textarea:focus {
     background-color: #fff;
     color: #775069
 }
-
 .navbar-header,
 .navbar-nav {
     margin-top: 10px
 }
-
 .navbar-brand {
     font-size: 40px;
     font-weight: 500
 }
-
-@media (max-width:900px) and (min-width:767px) {
+@media (max-width: 900px) and (min-width: 767px) {
     .navbar-brand {
         font-size: 30px
     }
 }
-
-
 /*Front Page*/
 
 #logo {
@@ -212,7 +180,6 @@ textarea:focus {
     min-height: 100vh;
     position: relative;
 }
-
 .welcomeBackground .child {
     width: fit-content;
     width: -moz-max-content;
@@ -225,84 +192,63 @@ textarea:focus {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-
-
 .welcomeBackground .welcomeText {
     justify-content: center;
     align-items: center
 }
-
 .welcomeBackground .welcomeDiv {
-  height: 100%;
-  width: 100%;
-  padding-top: 50px
+    height: 100%;
+    width: 100%;
+    padding-top: 50px
 }
-
 .welcomeDiv h1 {
-  font-size: 100px;
-  margin-top: 0;
-  margin-bottom: 30px;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
-
 #front .service img {
-	width:auto;
-	height:100px;
+    width: auto;
+    height: 100px;
 }
-
 #front .service .service-container {
     margin-bottom: 50px;
 }
-
 #front .service a:hover {
-	opacity: .7;
+    opacity: .7;
 }
-
 #front .service {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
-
-#front #clients-say  {
-	background-color: #775069;
-	color: white;
+#front #clients-say {
+    background-color: #775069;
+    color: white;
 }
-
 #front #clients-say h2 {
-	color: white;
+    color: white;
 }
-
-#front #clients-say  .carousel-inner .active {
-	background-color: transparent;
+#front #clients-say .carousel-inner .active {
+    background-color: transparent;
 }
-
-#front #clients-say  .carousel-inner {
-	padding-bottom: 50px;
+#front #clients-say .carousel-inner {
+    padding-bottom: 50px;
 }
-
 #front #clients-say .quote {
     font-style: italic;
     text-align: left;
 }
-
 #front #clients-say .attr {
     font-size: 12px;
     text-align: right;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
-
-@media (max-width: 760px){
-	#front #clients-say  .carousel-inner .item {
-		padding-top: 50px;
-	}
+@media (max-width: 760px) {
+    #front #clients-say .carousel-inner .item {
+        padding-top: 50px;
+    }
 }
-
 #front #contact {
     margin-bottom: 50px
 }
-
-
-
-
 .scrollNav {
     background: #fff;
     border-bottom: 1px solid grey;
@@ -310,70 +256,67 @@ textarea:focus {
     -moz-box-shadow: 0 8px 6px -6px grey;
     box-shadow: 0 8px 6px -6px grey
 }
-
 .topNav {
     border-bottom: none;
     background: 0 0
 }
-
 .brandShow {
     visibility: visible
 }
-
 .brandHide {
     visibility: hidden
 }
-
 #contact .col-md-12 {
     text-decoration: none;
     font-weight: 600
 }
-
 #contact button,
 #contact input,
 #contact textarea {
     margin-bottom: 30px
 }
-
 .contact-container {
     width: 100%;
     float: left
 }
-
 #contact .message span {
     margin-bottom: 15px
 }
-
-
-
 /*Work*/
-.workDiv { 
-	padding: 20px 15px;
-  border-bottom: 1px solid #CDCCDA;
+
+#services .workDiv,
+#portfolio .workDiv {
+    padding: 20px 15px;
+    border-bottom: 1px solid #CDCCDA;
 }
-
-
+#services .workDiv:last-child,
+#portfolio .workDiv:last-child,
+{
+    border-bottom: none;
+}
 /*Services*/
 
 #services h3 {
     margin-top: 0px;
 }
-
-.img-holder {
+#services .img-holder {
     text-align: center;
 }
-.img-holder .img-responsive {
+#services .img-holder .img-responsive {
     display: inline;
+}
+@media (max-width: 768px) {
+    .img-holder .img-responsive {
+        height: 100px;
+    }
 }
 footer {
     padding: 20px 0;
     font-size: 12px;
     background-color: #f8f8f8;
 }
-
-@media (max-width:767px) {
-    #contact .contentContainer,
-    #portfolio .col-sm-6 {
+@media (max-width: 767px) {
+    #contact .contentContainer {
         padding-left: 0;
         padding-right: 0
     }

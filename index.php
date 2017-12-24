@@ -12,14 +12,13 @@
     <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-110468142-1');
-    </script> -->
-
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'UA-110468142-1');
+      </script> -->
   </head>
   <body id="front">
     <nav class="navbar nav  navbar-default topNav navbar-fixed-top">
@@ -36,7 +35,7 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-           <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="/newdesign/services.php">Services</a></li>
             <li><a href="/newdesign/projects.php">Projects</a></li>
             <li><a href="/newdesign/contact.php">Contact</a></li>
@@ -64,7 +63,8 @@
             Located in Edison, NJ, E and V Design combines years of art and design experience with technical wizardry. We create unique website experiences focused on business and customer needs. Our services cover the full-range of website development, including visual design, interaction design, interface design, UX, front-end development, back-end development, and search engine optimization (SEO). All designs are responsive to display equally well on desktop, tablet, and mobile. We also create custom Wordpress sites which offer you the flexibility to easily edit and add content to your site while giving you a unique design.
           </p>
           <p>
-            We offer competitive pricing depending on the size and scope of your project. As a a small business we enjoy forming close relationships with our clients during the design process and offer longer term maintenance plans. We are invested in your project and want your business to succeed!</p>
+            We offer competitive pricing depending on the size and scope of your project. As a a small business we enjoy forming close relationships with our clients during the design process and offer longer term maintenance plans. We are invested in your project and want your business to succeed!
+          </p>
           </p>
         </div>
       </div>
@@ -72,20 +72,28 @@
         <h2>Services</h2>
         <div class="col-md-12 service">
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/newdesign/services.php#design"><img src="img/service-design.png">
-            <p>Design</p></a>
+            <a href="/newdesign/services.php#design">
+              <img src="img/service-design.png">
+              <p>Design</p>
+            </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/newdesign/services.php#ux"><img src="img/service-ux.png">
-            <p>User Experience</p></a>
+            <a href="/newdesign/services.php#ux">
+              <img src="img/service-ux.png">
+              <p>User Experience</p>
+            </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/newdesign/services.php#dev"><img src="img/service-dev.png">
-            <p>Development</p> </a>
+            <a href="/newdesign/services.php#dev">
+              <img src="img/service-dev.png">
+              <p>Development</p>
+            </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/newdesign/services.php#seo"><img src="img/service-seo.png">
-            <p>SEO</p></a>
+            <a href="/newdesign/services.php#seo">
+              <img src="img/service-seo.png">
+              <p>SEO</p>
+            </a>
           </div>
         </div>
       </div>
@@ -107,26 +115,25 @@
                 </div>
                 <div class="item">
                   <div class="col-sm-8 col-sm-offset-2">
-                   <p class="quote">"I've worked with Elie for a few years. He's alway been responsive to my calls and emails, willing to do whatever it takes to get the job done. He is a major asset to my business."</p>
+                    <p class="quote">"I've worked with E and V Design for a few years. They've alway been responsive to my calls and emails, willing to do whatever it takes to get the job done. They are a major asset to my business."</p>
                     <p class="attr">David K.</p>
                     <p class="attr">Assisting Hands of Livingston</p>
-                    
                   </div>
                 </div>
-               <!--  <div class="item">
+                <!--  <div class="item">
                   <div class="col-md-8 col-md-offset-2">
                    <p>Hsmsar's most distinct characteristic is his unusual manner of speaking, which has varied over time. His tone of voice is generally quite exaggerated, and he often begins sentences by wailing "DAaAAaaAAaaAAaa!". His speech tends to range from perfectly normal English to often random and disconnected phrases that have little to no connection to the scene.</p>
                   </div>
-                </div> -->
+                  </div> -->
               </div>
               <!-- Controls -->
               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
               </a>
               <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
               </a>
             </div>
           </div>
@@ -153,7 +160,7 @@
             </div>
             <div class="contact-container">
               <div class="col-sm-12 text-center">
-              <div class="message text-center"></div>
+                <div class="message text-center"></div>
                 <button id="submit" type="submit" class="btn btn-md btn-default">
                 Submit
                 </button>
@@ -171,4 +178,3 @@
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
-
