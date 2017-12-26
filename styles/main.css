@@ -21,10 +21,11 @@ h1 {
     color: white;
 }
 h2,
-#main {
+#main,
+#main h1 {
     color: #4e4a4a;
 }
-h2 {
+h2, #page h1 {
     text-align: center;
     font-size: 40px;
     padding: 50px 0;
@@ -38,7 +39,7 @@ body {
     font-family: 'Open Sans', sans-serif
 }
 
-h2, h3, h4 {
+#page h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
 }
 p {
@@ -237,7 +238,7 @@ textarea:focus {
     background-color: #775069;
     color: white;
 }
-#front #clients-say h2 {
+#front #clients-say h1 {
     color: white;
 }
 #front #clients-say .carousel-inner .active {
@@ -370,7 +371,7 @@ footer {
         background: #fff;
         border-bottom: 1px solid grey
     }
-    .banner h2 {
+    #page h1 {
         font-size: 36px
     }
     h3 {
