@@ -72,7 +72,7 @@
         <div class="col-md-12 service">
           <div class="col-sm-3 service-container col-xs-6">
             <a href="/services.php#design">
-              <img alt="service logo" src="img/service-design.png">
+              <img alt="design logo" src="img/service-design.png">
               <p>Design</p>
             </a>
           </div>
@@ -84,7 +84,7 @@
           </div>
           <div class="col-sm-3 service-container col-xs-6">
             <a href="/services.php#dev">
-              <img alt="dev logo" src="img/service-dev.png">
+              <img alt="service logo" src="img/service-dev.png">
               <p>Development</p>
             </a>
           </div>
@@ -97,8 +97,9 @@
         </div>
       </div>
       <div id="clients-say" class="container text-center">
+          <div class="col-sm-12">
             <h2>Clients Say...</h2>
-       
+          </div>
           <div>
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
               <!-- Wrapper for slides -->
@@ -134,7 +135,7 @@
               </a>
             </div>
           </div>
-     
+      
       </div>
       <div id="contact" class="container text-center">
         <div class="col-sm-12">

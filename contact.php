@@ -50,7 +50,7 @@
         <h2>Contact</h2>
         <div class="col-md-8 col-md-offset-2">
           <p>As a local design company we enjoy getting to know our clients and work to create websites that reflect your business’ unique needs. With a background in User Experience and Information Science we specialize in balancing business and customer needs along with cutting edge development and coding. Contact us today!</p>
-          <div id="contact">
+          <div>
             <form name="contactform" method="post" action="/form.php">
               <div class="contact-container">
                 <div class="col-sm-6">
