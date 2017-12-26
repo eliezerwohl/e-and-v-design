@@ -1,8 +1,4 @@
-// var menuVar;
-// var current;
-
 function scrollFunction(){
-	console.log("Yup")
   if($(this).scrollTop() > 0){   
       $('.navbar-default').removeClass("topNav").addClass("scrollNav");   
       $(".navbar-brand").removeClass("brandHide").addClass("brandShow");

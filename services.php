@@ -11,14 +11,14 @@
     <title>E and V Design | NJ Web Development</title>
     <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
       
         gtag('config', 'UA-110468142-1');
-      </script> -->
+      </script>
   </head>
   <body id="page">
     <nav class="navbar nav  navbar-default scrollNav navbar-fixed-top">
@@ -31,14 +31,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a  id="homeButton" class="navbar-brand" href="/newdesign/index.php">E and V Design</a>
+          <a  id="homeButton" class="navbar-brand" href="/index.php">E and V Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/newdesign/services.php">Services</a></li>
-            <li><a href="/newdesign/projects.php">Projects</a></li>
-            <li><a href="/newdesign/contact.php">Contact</a></li>
+            <li><a href="/services.php">Services</a></li>
+            <li><a href="/projects.php">Projects</a></li>
+            <li><a href="/contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -51,7 +51,7 @@
           <h2>Services</h2>
           <div id="design" class="row workDiv">
             <div class="col-sm-6 col-sm-push-6 img-holder">
-              <img src="img/service-design-lg.png" class="img-responsive" alt="Millennial Mom Times website">
+              <img src="img/service-design-lg.jpg" class="img-responsive" alt="Millennial Mom Times website">
             </div>
             <div class="col-sm-6 col-sm-pull-6">
               <h3>Design</h3>
@@ -62,7 +62,7 @@
           </div>
           <div id="ux" class="row workDiv">
             <div class="col-sm-6 img-holder">
-              <img src="img/service-ux-lg.png" class="img-responsive" alt="Triangle Psychotherapies website">
+              <img src="img/service-ux-lg.jpg" class="img-responsive" alt="Triangle Psychotherapies website">
             </div>
             <div class="col-sm-6">
               <h3>UX</h3>
@@ -71,7 +71,7 @@
           </div>
           <div id="dev" class="row workDiv">
             <div class="col-sm-6 col-sm-push-6 img-holder">
-              <img src="img/service-dev-lg.png" class="img-responsive" alt="Eisenstein-Sirot Group website">
+              <img src="img/service-dev-lg.jpg" class="img-responsive" alt="Eisenstein-Sirot Group website">
             </div>
             <div class="col-sm-6 col-sm-pull-6">
               <h3>Development</h3>
@@ -80,7 +80,7 @@
           </div>
           <div id="seo" class="row workDiv">
             <div class="col-sm-6 img-holder">
-              <img src="img/service-seo-lg.png " class="img-responsive" alt="Assisting Hands website">
+              <img src="img/service-seo-lg.jpg " class="img-responsive" alt="Assisting Hands website">
             </div>
             <div class="col-sm-6">
               <h3>SEO</h3>

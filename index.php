@@ -11,14 +11,14 @@
     <title>E and V Design | NJ Web Development</title>
     <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
       
         gtag('config', 'UA-110468142-1');
-      </script> -->
+      </script>
   </head>
   <body id="front">
     <nav class="navbar nav  navbar-default topNav navbar-fixed-top">
@@ -31,14 +31,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a id="homeButton" class="navbar-brand brandHide" href="/newdesign/index.php">E and V Design</a>
+          <a id="homeButton" class="navbar-brand brandHide" href="/index.php">E and V Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/newdesign/services.php">Services</a></li>
-            <li><a href="/newdesign/projects.php">Projects</a></li>
-            <li><a href="/newdesign/contact.php">Contact</a></li>
+            <li><a href="/services.php">Services</a></li>
+            <li><a href="/projects.php">Projects</a></li>
+            <li><a href="/contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -50,7 +50,7 @@
         <div class="child">
           <h1>E and V <span style="display: block; margin-top: 30px;">Design</span>
           </h1>
-          <img id ="logo" class="center-text" src="img/logo-5.png">
+          <img alt="logo" id ="logo" class="center-text" src="img/logo-5.png">
         </div>
       </div>
     </div>
@@ -65,41 +65,39 @@
           <p>
             We offer competitive pricing depending on the size and scope of your project. As a a small business we enjoy forming close relationships with our clients during the design process and offer longer term maintenance plans. We are invested in your project and want your business to succeed!
           </p>
-          </p>
         </div>
       </div>
       <div class="container text-center gray">
         <h2>Services</h2>
         <div class="col-md-12 service">
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/newdesign/services.php#design">
-              <img src="img/service-design.png">
+            <a href="/services.php#design">
+              <img alt="design logo" src="img/service-design.png">
               <p>Design</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/newdesign/services.php#ux">
-              <img src="img/service-ux.png">
+            <a href="/services.php#ux">
+              <img alt="UX logo" src="img/service-ux.png">
               <p>User Experience</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/newdesign/services.php#dev">
-              <img src="img/service-dev.png">
+            <a href="/services.php#dev">
+              <img alt="service logo" src="img/service-dev.png">
               <p>Development</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/newdesign/services.php#seo">
-              <img src="img/service-seo.png">
+            <a href="/services.php#seo">
+              <img alt="SEO logo" src="img/service-seo.png">
               <p>SEO</p>
             </a>
           </div>
         </div>
       </div>
       <div id="clients-say" class="container text-center">
-        <div id="aboutUs" class="container">
-          <div class="text-center col-sm-12">
+          <div class="col-sm-12">
             <h2>Clients Say...</h2>
           </div>
           <div>
@@ -115,7 +113,7 @@
                 </div>
                 <div class="item">
                   <div class="col-sm-8 col-sm-offset-2">
-                    <p class="quote">"I've worked with E and V Design for a few years. They've alway been responsive to my calls and emails, willing to do whatever it takes to get the job done. They are a major asset to my business."</p>
+                    <p class="quote">"E and V Design have always been responsive to my calls and emails, willing to do whatever it takes to get the job done. They are a major asset to my business."</p>
                     <p class="attr">David K.</p>
                     <p class="attr">Assisting Hands of Livingston</p>
                   </div>
@@ -137,7 +135,7 @@
               </a>
             </div>
           </div>
-        </div>
+      
       </div>
       <div id="contact" class="container text-center">
         <div class="col-sm-12">
