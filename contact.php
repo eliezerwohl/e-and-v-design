@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <title>E and V Design | NJ Web Development</title>
-    <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
+    <title>E and V Design | Contact Us</title>
+    <meta name="Description" content='E and V Design is a web design and development group that offers a range of website services. Contact us for more information'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110468142-1"></script>
       <script>
@@ -31,14 +31,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a  id="homeButton" class="navbar-brand" href="/index.php">E and V Design</a>
+          <a  id="homeButton" class="navbar-brand" href="/">E and V Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/services.php">Services</a></li>
-            <li><a href="/projects.php">Projects</a></li>
-            <li><a href="/contact.php">Contact</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -47,11 +47,11 @@
     </nav>
     <div id ="main">
       <div id="contact" class="container">
-        <h2>Contact</h2>
+        <h1>Contact</h1>
         <div class="col-md-8 col-md-offset-2">
           <p>As a local design company we enjoy getting to know our clients and work to create websites that reflect your business’ unique needs. With a background in User Experience and Information Science we specialize in balancing business and customer needs along with cutting edge development and coding. Contact us today!</p>
           <div>
-            <form name="contactform" method="post" action="/form.php">
+            <form name="contactform" method="post" action="/form">
               <div class="contact-container">
                 <div class="col-sm-6">
                   <input  id="name" placeholder="name" class="col-xs-12">

@@ -21,10 +21,11 @@ h1 {
     color: white;
 }
 h2,
-#main {
+#main,
+#main h1 {
     color: #4e4a4a;
 }
-h2 {
+h2, #page h1 {
     text-align: center;
     font-size: 40px;
     padding: 50px 0;
@@ -38,7 +39,7 @@ body {
     font-family: 'Open Sans', sans-serif
 }
 
-h2, h3, h4 {
+#page h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
 }
 p {
@@ -148,11 +149,27 @@ textarea:focus {
     color: #433544;
 }
 .navbar-default .navbar-nav>li>a:focus {
-    color: grey
+    color: #4e4a4a
 }
 .navbar-default .navbar-brand:hover {
     color: #775069;
     opacity: .7
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #4e4a4a;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #775069;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: white;
 }
 .navbar ul li {
     font-size: 16px;
@@ -270,10 +287,10 @@ textarea:focus {
 }
 .scrollNav {
     background: #fff;
-    border-bottom: 1px solid grey;
-    -webkit-box-shadow: 0 8px 6px -6px grey;
-    -moz-box-shadow: 0 8px 6px -6px grey;
-    box-shadow: 0 8px 6px -6px grey
+    border-bottom: 1px solid #4e4a4a;
+    -webkit-box-shadow: 0 8px 6px -6px #4e4a4a;
+    -moz-box-shadow: 0 8px 6px -6px #4e4a4a;
+    box-shadow: 0 8px 6px -6px #4e4a4a
 }
 .topNav {
     border-bottom: none;
@@ -368,9 +385,9 @@ footer {
     }
     .container-fluid {
         background: #fff;
-        border-bottom: 1px solid grey
+        border-bottom: 1px solid #4e4a4a
     }
-    .banner h2 {
+    #page h1 {
         font-size: 36px
     }
     h3 {
@@ -378,6 +395,6 @@ footer {
     }
 }
 
-#four {
+#page #contact, #four {
   min-height: calc(100vh - 190px);
 }

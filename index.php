@@ -31,14 +31,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a id="homeButton" class="navbar-brand brandHide" href="/index.php">E and V Design</a>
+          <a id="homeButton" class="navbar-brand brandHide" href="/">E and V Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/services.php">Services</a></li>
-            <li><a href="/projects.php">Projects</a></li>
-            <li><a href="/contact.php">Contact</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -71,25 +71,25 @@
         <h2>Services</h2>
         <div class="col-md-12 service">
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/services.php#design">
+            <a href="/services#design">
               <img alt="design logo" src="img/service-design.png">
               <p>Design</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/services.php#ux">
+            <a href="/services#ux">
               <img alt="UX logo" src="img/service-ux.png">
               <p>User Experience</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/services.php#dev">
+            <a href="/services#dev">
               <img alt="service logo" src="img/service-dev.png">
               <p>Development</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/services.php#seo">
+            <a href="/services#seo">
               <img alt="SEO logo" src="img/service-seo.png">
               <p>SEO</p>
             </a>
@@ -142,7 +142,7 @@
           <h2>Contact</h2>
         </div>
         <div class="contentContainer col-md-8 col-sm-12 col-md-offset-2">
-          <form name="contactform" method="post" action="/form.php">
+          <form name="contactform" method="post" action="/form">
             <div class="contact-container">
               <div class="col-sm-6">
                 <input  id="name" placeholder="name" class="col-xs-12">
