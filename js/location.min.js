@@ -1,0 +1,1 @@
+$(document).ready(function(){if(window.location.hash){var o=$(window.location.hash);$("html, body").animate({scrollTop:o.offset().top-80},1e3)}});

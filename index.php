@@ -185,10 +185,13 @@
       </div>
     </div>
     <footer class="text-center">
-      &copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.
+      <p>&copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.</p>
+      <p class="contact">
+      <a href="/contact">Contact us <img src="img/envelope.png"></a></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/navbar.min.js"></script>
+    <script type="text/javascript" src="js/contact.min.js"></script>
   </body>
 </html>

@@ -48,16 +48,17 @@
     </nav>
     <div id ="main">
      <div id="four" class="container">
-         <h2>404'd!</h2>
+         <h1>404'd!</h1>
+         <div class="col-md-12"><p>The page you are trying to reach cannot be found. <a href="/">Click here to go to the homepage.</a></p></div>
       </div>
     </div>
     <footer class="text-center">
-      &copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved. <br>
-      Contact Us <i class="glyphicon glyphicon-envelope"></i>
+      <p>&copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.</p>
+      <p class="contact">
+      <a href="/contact">Contact us <img src="img/envelope.png"></a></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   <!--  <script type="text/javascript" src="js/main.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
 
