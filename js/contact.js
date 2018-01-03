@@ -21,7 +21,7 @@ else
 // AJAX Code To Submit Form.
 $.ajax({
 type: "POST",
-url: "form.php",
+url: "/form",
 data: dataString,
 cache: false,
 success: function(result){
