@@ -23,7 +23,7 @@
 <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
     <title>E and V Design | Contact Us</title>
     <meta name="Description" content='E and V Design is a web design and development group that offers a range of website services. Contact us for more information'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -95,10 +95,12 @@
       </div>
     </div>
     <footer class="text-center">
-      &copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.
+      <p>&copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.</p>
+      <p class="contact">
+      <a href="/contact">Contact us <img src="img/envelope.png"></a></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
      <script type="text/javascript" src="js/contact.js"></script>
   </body>
 </html>

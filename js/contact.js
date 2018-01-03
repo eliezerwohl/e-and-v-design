@@ -1,8 +1,3 @@
-// var menuVar;
-// var current;
-
-
-
 $( document ).ready(function() {
 	ajaxCall();
 }); 
@@ -26,11 +21,11 @@ else
 // AJAX Code To Submit Form.
 $.ajax({
 type: "POST",
-url: "form.php",
+url: "/form",
 data: dataString,
 cache: false,
 success: function(result){
-	$("#name").val("");
+$("#name").val("");
 $("#email").val("");
 $("#message").val("");
 $(".message").append("<span class='success'>Thank you for contacting us, we will be in touch soon</span>");

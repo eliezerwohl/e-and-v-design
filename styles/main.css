@@ -1,5 +1,4 @@
 /*Bootstrap Overwrite*/
-
 #front .container {
     width: 100%;
     margin: 0;
@@ -52,7 +51,7 @@ textarea {
 input:focus,
 textarea:focus {
     outline: 0;
-    border: 1.5px solid black;
+    border: 1px solid black;
 }
 ::-webkit-input-placeholder {
     opacity: .3;
@@ -79,10 +78,20 @@ textarea:focus {
 #main button {
     color: #775069
 }
-#main a:hover p {
+footer {
+    color: #4e4a4a;
+}
+footer a {
+    color: #4e4a4a;
+}
+#main a:hover p, footer a:hover {
     opacity: .7
 }
-#main a:hover {
+
+footer a:hover {
+    color: #4e4a4a;
+}
+#main a:hover, footer a:hover {
     text-decoration: none
 }
 #main p {
@@ -109,6 +118,10 @@ textarea:focus {
 #page #contact p {
     margin-bottom: 50px;
     padding: 0px 15px;
+}
+
+#page #contact, #four {
+  min-height: calc(100vh - 215px);
 }
 @media (max-width: 767px) {
     #page #contact p {
@@ -270,8 +283,6 @@ textarea:focus {
     }
 }
 
-
-
 #front #clients-say .quote {
     font-style: italic;
     text-align: left;
@@ -351,6 +362,16 @@ footer {
     font-size: 12px;
     background-color: #f8f8f8;
 }
+
+footer img {
+    margin-top: -2px;
+    height: 16px;
+    width: auto;
+}
+
+footer .contact {
+    margin-bottom: 0px;
+}
 @media (max-width: 767px) {
     #contact .contentContainer {
         padding-left: 0;
@@ -387,14 +408,10 @@ footer {
         background: #fff;
         border-bottom: 1px solid #4e4a4a
     }
-    #page h1 {
+    #page h1, h2 {
         font-size: 36px
     }
     h3 {
         font-size: 26px
     }
-}
-
-#page #contact, #four {
-  min-height: calc(100vh - 190px);
 }
