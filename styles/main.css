@@ -51,7 +51,7 @@ textarea {
 input:focus,
 textarea:focus {
     outline: 0;
-    border: 1.5px solid black;
+    border: 1px solid black;
 }
 ::-webkit-input-placeholder {
     opacity: .3;

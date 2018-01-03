@@ -23,7 +23,7 @@
 <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
     <title>E and V Design | Services</title>
     <meta name="Description" content='E and V Design offers a wide-range of web development services including website design, coding, SEO, and User Experience Research. We work with individuals, businesses, and non-profits to create website experiences.'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
