@@ -106,13 +106,6 @@
         </div>
       </div>
     </div>
-    <footer class="text-center">
-      <p>&copy; <?php echo date("Y"); ?> E and V Design.  All rights reserved.</p>
-      <p class="contact">
-      <a href="/contact">Contact us <img src="img/envelope.png"></a></p>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/location.min.js"></script>
+    <?php require 'footer.php';?>
   </body>
 </html>
