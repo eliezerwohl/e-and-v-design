@@ -3,7 +3,7 @@
   <meta itemprop="image" content="https://eandvdesign.com/img/logo-5.png">
   <meta itemprop="telephone" content="7325100423">
   <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address">
-  <meta itemprop="streetAddress" content="112 Highland Ave">112 Highland Ave
+  <meta itemprop="streetAddress" content="112 Highland Ave">
   <meta itemprop="addressLocality" content="Edison"> 
   <meta itemprop="addressRegion" content="NJ">
   <meta itemprop="postalCode" content="08817"></span>
