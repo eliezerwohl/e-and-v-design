@@ -74,7 +74,7 @@
             <a target="_blank" href="https://www.millennialmomtimes.com/">
               <p>millennialmomtimes.com</p>
             </a>
-            <p>Design and Development Process:</p>
+            <p>Design and Development Process</p>
             <ul>
               <li>Comparative analysis</li>
               <li>Wireframes</li>
@@ -135,7 +135,27 @@
               <li>Job application portal</li>
               <li>Payment portal</li>
               <li>SSL certification</li>
-            </ul> 
+            </ul>
+          </div>
+        </div>
+        <div class="row workDiv">
+          <div class="col-sm-6 col-sm-push-6">
+            <img src="img/gurufitclub.jpg" class="img-responsive" alt="Gurufit Club website">
+          </div>
+          <div class="col-sm-6 col-sm-pull-6">
+            <h3>Guru Fit Website</h3>
+            <a target="_blank" href="https://www.gurufitclub.com/">
+              <p>gurufitclub.com</p>
+            </a>
+            <p>Design and Development Process</p>
+            <ul>
+              <li>Comparative analysis</li>
+              <li>Wireframes</li>
+              <li>Mockups</li>
+              <li>SEO</li>
+              <li>Coded custom WordPress site</li>
+              <li>Hosting</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -149,4 +169,3 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-
