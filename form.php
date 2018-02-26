@@ -1,10 +1,16 @@
-<?php $name = $message = htmlspecialchars($_POST['name']);
+<?php $name = htmlspecialchars($_POST['name']);
 $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $message = htmlspecialchars($_POST['message']);
-$formcontent="From: $name \n $email \n Message: $message";
-$recipient = "eandvdesign@gmail.com";
-$subject = "Contact Page";
-$mailheader = "From: eandvdesign@gmail.com";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "$formcontent";
+$location = htmlspecialchars($_POST['location']);
+if ( empty($email) || empty($message)  || empty($name) ){
+  echo "nothing";
+}
+else {
+  $formcontent="Location: $location \nFrom: $name\n $email\n Message: $message";
+  $recipient = "eandvdesign@gmail.com";
+  $subject = "Contact Page";
+  $mailheader = "From: eandvdesign@gmail.com";
+  mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+}
+
 ?>

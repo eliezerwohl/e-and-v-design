@@ -8,8 +8,9 @@ $("#submit").click(function(e){
 var name = $("#name").val();
 var email = $("#email").val();
 var message = $("#message").val();
+var location = $("#location").val();
 // Returns successful data submission message when the entered information is stored in database.
-var dataString = 'name='+ name + '&email='+ email + '&message='+ message;
+var dataString = 'name='+ name + '&email='+ email + '&message='+ message + '&location='+ location;
 $(".message").empty();
 if(name==''||email==''||message=='')
 {
@@ -25,12 +26,13 @@ url: "/form",
 data: dataString,
 cache: false,
 success: function(result){
+  debugger
 $("#name").val("");
 $("#email").val("");
 $("#message").val("");
 $(".message").append("<span class='success'>Thank you for contacting us, we will be in touch soon</span>");
 }
-});
+})
 }
 return false;
 });

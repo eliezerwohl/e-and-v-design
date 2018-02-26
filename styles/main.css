@@ -338,6 +338,13 @@ footer a:hover {
 .workDiv:last-child {
     border:0px solid black;
 }
+@media(max-width:767px){
+  #portfolio .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 /*Services*/
 
 #services h3 {
