@@ -32,7 +32,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-      
+
         gtag('config', 'UA-110468142-1');
       </script>
   </head>
@@ -84,6 +84,7 @@
               <div class="contact-container">
                 <div class="col-sm-12 text-center">
                   <div class="message text-center"></div>
+                                  <input id="location" type="hidden" name="location" value="contact page">
                   <button id="submit" type="submit" class="btn btn-md btn-default">
                   Submit
                   </button>
@@ -97,6 +98,6 @@
     <?php require 'footer.php';?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-     <script type="text/javascript" src="js/contact.js"></script>
+     <script type="text/javascript" src="js/contact.min.js"></script>
   </body>
 </html>

@@ -32,7 +32,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-      
+
         gtag('config', 'UA-110468142-1');
       </script>
   </head>
@@ -71,8 +71,8 @@
             </div>
             <div class="col-sm-6 col-sm-pull-6">
               <h3>Design</h3>
-              <p>We’ll work with you through defining your site’s main purpose, collecting content, 
-                and asset creation. 
+              <p>We’ll work with you through defining your site’s main purpose, collecting content,
+                and asset creation.
               </p>
             </div>
           </div>
@@ -107,5 +107,7 @@
       </div>
     </div>
     <?php require 'footer.php';?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

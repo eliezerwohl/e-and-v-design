@@ -32,7 +32,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-      
+
         gtag('config', 'UA-110468142-1');
       </script>
   </head>
@@ -151,7 +151,7 @@
               </a>
             </div>
           </div>
-      
+
       </div>
       <div id="contact" class="container text-center">
         <div class="col-sm-12">
@@ -175,6 +175,7 @@
             <div class="contact-container">
               <div class="col-sm-12 text-center">
                 <div class="message text-center"></div>
+                <input id="location" type="hidden" name="location" value="front page">
                 <button id="submit" type="submit" class="btn btn-md btn-default">
                 Submit
                 </button>
