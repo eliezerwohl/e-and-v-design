@@ -21,9 +21,9 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
     <title>E and V Design | NJ Web Design and Development</title>
     <meta name="Description" content='Located in Edison, NJ, E and V Design creates unique website experiences for individuals, groups, non-profits, and businesses. We offer a range of services including website design, development, SEO, and custom WordPress sites.'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -47,7 +47,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a id="homeButton" class="navbar-brand brandHide" href="/">E and V Design</a>
+          <a id="homeButton" class="navbar-brand brandHide" href="/">E & V <img alt="logo" id="brand-logo"  src="img/logo.png"> Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -64,26 +64,15 @@
     <div class="welcomeBackground">
       <div class="welcomeDiv">
         <div class="child">
-          <h1>E and V <span style="display: block; margin-top: 30px;">Design</span>
-          </h1>
-          <img alt="logo" id ="logo" class="center-text" src="img/logo-5.png">
+          <h1>E & V Design</h1>
+          <img alt="logo" id ="logo" class="center-text" src="img/logo.png">
+          <h2>Web and UX Design and Development</h2>
         </div>
       </div>
     </div>
     <!--   tools used side projects  social contact -->
     <div id="main">
-      <div id="aboutUs" class="container gray">
-        <h2>About</h2>
-        <div class="contentContainer col-md-8 col-md-offset-2">
-          <p>
-            Located in Edison, NJ, E and V Design combines years of art and design experience with technical wizardry. We create unique website experiences focused on business and customer needs. Our services cover the full-range of website development, including visual design, interaction design, interface design, UX, front-end development, back-end development, and search engine optimization (SEO). All designs are responsive to display equally well on desktop, tablet, and mobile. We also create custom Wordpress sites which offer you the flexibility to easily edit and add content to your site while giving you a unique design.
-          </p>
-          <p>
-            We offer competitive pricing depending on the size and scope of your project. As a a small business we enjoy forming close relationships with our clients during the design process and offer longer term maintenance plans. We are invested in your project and want your business to succeed!
-          </p>
-        </div>
-      </div>
-      <div class="container text-center gray">
+      <div class="container text-center">
         <h2>Services</h2>
         <div class="col-md-12 service">
           <div class="col-sm-3 service-container col-xs-6">
@@ -110,6 +99,17 @@
               <p>SEO</p>
             </a>
           </div>
+        </div>
+      </div>
+      <div id="aboutUs" class="container">
+        <h2>About</h2>
+        <div class="contentContainer col-md-8 col-md-offset-2">
+          <p>
+            Located in Edison, NJ, E and V Design combines years of art and design experience with technical wizardry. We create unique website experiences focused on business and customer needs. Our services cover the full-range of website development, including visual design, interaction design, interface design, UX, front-end development, back-end development, and search engine optimization (SEO). All designs are responsive to display equally well on desktop, tablet, and mobile. We also create custom Wordpress sites which offer you the flexibility to easily edit and add content to your site while giving you a unique design.
+          </p>
+          <p>
+            We offer competitive pricing depending on the size and scope of your project. As a a small business we enjoy forming close relationships with our clients during the design process and offer longer term maintenance plans. We are invested in your project and want your business to succeed!
+          </p>
         </div>
       </div>
       <div id="clients-say" class="container text-center">
@@ -188,7 +188,7 @@
     <?php require 'footer.php';?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/navbar.min.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript" src="js/contact.min.js"></script>
   </body>
 </html>
