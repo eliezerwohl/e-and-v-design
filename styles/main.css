@@ -130,6 +130,13 @@ textarea:focus {
     color: #f8f8f8;
     font-style: italic;
 }
+.brandHide {
+    visibility: hidden
+}
+.scrollNav .navbar-brand  {
+  visibility: visible;
+}
+
 .scrollNav .navbar-nav>li>a:hover {
     color: #4e4a4a;
 }
@@ -333,11 +340,8 @@ textarea:focus {
     margin-bottom: 50px
 }
 .scrollNav {
-    background-color:rgba(255,255,255)
-    border-bottom: 1px solid transparent;
-    /* -webkit-box-shadow: 0 8px 6px -6px #4e4a4a;
-    -moz-box-shadow: 0 8px 6px -6px #4e4a4a;
-    box-shadow: 0 8px 6px -6px #4e4a4a */
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid transparent;
 }
 .topNav {
     border-bottom: transparent;
@@ -345,9 +349,7 @@ textarea:focus {
 .brandShow {
     visibility: visible
 }
-.brandHide {
-    visibility: hidden
-}
+
 #contact .col-md-12 {
     text-decoration: none;
     font-weight: 600
@@ -368,7 +370,10 @@ textarea:focus {
 
 .workDiv {
     padding: 20px 15px;
-    border-bottom: 1px solid #CDCCDA;
+    border-bottom: 1px solid #988088;
+}
+#portfolio .workDiv {
+  border-bottom: 1px solid #baccd2;
 }
 .workDiv:last-child {
     border:0px solid black;
@@ -390,6 +395,7 @@ textarea:focus {
 }
 #services .img-holder .img-responsive {
     display: inline;
+    max-width: 210px;
 }
 @media (max-width: 768px) {
     .img-holder .img-responsive {

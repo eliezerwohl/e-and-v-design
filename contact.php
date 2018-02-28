@@ -21,9 +21,9 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
     <title>E and V Design | Contact Us</title>
     <meta name="Description" content='E and V Design is a web design and development group that offers a range of website services. Contact us for more information'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -47,14 +47,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a  id="homeButton" class="navbar-brand" href="/">E and V Design</a>
+          <a  id="homeButton" class="navbar-brand" href="/testpage">E & V <img alt="logo" id="brand-logo"  src="img/logo.png"> Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/services">Services</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/testpage/services.php">Services</a></li>
+            <li><a href="/testpage/projects.php">Projects</a></li>
+            <li><a href="/testpage/contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -98,6 +98,6 @@
     <?php require 'footer.php';?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-     <script type="text/javascript" src="js/contact.min.js"></script>
+     <script type="text/javascript" src="js/testpage/contact.php.min.js"></script>
   </body>
 </html>

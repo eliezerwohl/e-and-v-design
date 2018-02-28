@@ -21,9 +21,9 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
     <title>E and V Design | Services</title>
     <meta name="Description" content='E and V Design offers a wide-range of web development services including website design, coding, SEO, and User Experience Research. We work with individuals, businesses, and non-profits to create website experiences.'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -47,14 +47,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a  id="homeButton" class="navbar-brand" href="/">E and V Design</a>
+          <a  id="homeButton" class="navbar-brand" href="/testpage">E & V <img alt="logo" id="brand-logo"  src="img/logo.png"> Design</a></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/services">Services</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/testpage/services.php">Services</a></li>
+            <li><a href="/testpage/projects.php">Projects</a></li>
+            <li><a href="/testpage/contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -67,7 +67,7 @@
           <h1>Services</h1>
           <div id="design" class="row workDiv">
             <div class="col-sm-6 col-sm-push-6 img-holder">
-              <img src="img/service-design-lg.jpg" class="img-responsive" alt="Millennial Mom Times website">
+              <img src="img/service-design-lg.png" class="img-responsive" alt="Millennial Mom Times website">
             </div>
             <div class="col-sm-6 col-sm-pull-6">
               <h3>Design</h3>
@@ -78,7 +78,7 @@
           </div>
           <div id="ux" class="row workDiv">
             <div class="col-sm-6 img-holder">
-              <img src="img/service-ux-lg.jpg" class="img-responsive" alt="Triangle Psychotherapies website">
+              <img src="img/service-ux-lg.png" class="img-responsive" alt="Triangle Psychotherapies website">
             </div>
             <div class="col-sm-6">
               <h3>UX</h3>
@@ -87,7 +87,7 @@
           </div>
           <div id="dev" class="row workDiv">
             <div class="col-sm-6 col-sm-push-6 img-holder">
-              <img src="img/service-dev-lg.jpg" class="img-responsive" alt="Eisenstein-Sirot Group website">
+              <img src="img/service-dev-lg.png" class="img-responsive" alt="Eisenstein-Sirot Group website">
             </div>
             <div class="col-sm-6 col-sm-pull-6">
               <h3>Development</h3>
@@ -96,7 +96,7 @@
           </div>
           <div id="seo" class="row workDiv">
             <div class="col-sm-6 img-holder">
-              <img src="img/service-seo-lg.jpg " class="img-responsive" alt="Assisting Hands website">
+              <img src="img/service-seo-lg.png " class="img-responsive" alt="Assisting Hands website">
             </div>
             <div class="col-sm-6">
               <h3>SEO</h3>

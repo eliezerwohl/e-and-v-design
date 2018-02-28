@@ -9,6 +9,6 @@
   <meta itemprop="postalCode" content="08817"></span>
   <p>&copy; <?php echo date("Y"); ?> <span itemprop="name">E and V Design, LLC</span>.  All rights reserved.</p>
   <p class="contact">
-  <a href="/contact">Contact us <img src="img/envelope.png"></a>
+  <a href="/testpage/contact.php">Contact us <img src="img/envelope.png"></a>
   </p>
 </footer>

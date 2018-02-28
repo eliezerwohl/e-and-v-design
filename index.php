@@ -47,14 +47,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a id="homeButton" class="navbar-brand brandHide" href="/">E & V <img alt="logo" id="brand-logo"  src="img/logo.png"> Design</a>
+          <a id="homeButton" class="navbar-brand brandHide" href="/testpage">E & V <img alt="logo" id="brand-logo"  src="img/logo.png"> Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/services">Services</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/testpage/services.php">Services</a></li>
+            <li><a href="/testpage/projects.php">Projects</a></li>
+            <li><a href="/testpage/contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -76,25 +76,25 @@
         <h2>Services</h2>
         <div class="col-md-12 service">
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/services#design">
+            <a href="/testpage/services.php#design">
               <img alt="design logo" src="img/service-design.png">
               <p>Design</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/services#ux">
+            <a href="/testpage/services.php#ux">
               <img alt="UX logo" src="img/service-ux.png">
               <p>User Experience</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/services#dev">
+            <a href="/testpage/services.php#dev">
               <img alt="service logo" src="img/service-dev.png">
               <p>Development</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/services#seo">
+            <a href="/testpage/services.php#seo">
               <img alt="SEO logo" src="img/service-seo.png">
               <p>SEO</p>
             </a>
