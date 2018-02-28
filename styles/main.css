@@ -259,6 +259,7 @@ textarea:focus {
 .welcomeDiv h2 {
   padding-top: 30px;
 }
+
 #front .service img {
     width: auto;
     height: 100px;
@@ -320,6 +321,20 @@ textarea:focus {
     padding-bottom: 50px;
 }
 
+@media(max-width: 767px){
+  #front .carousel .glyphicon-chevron-left {
+    margin-left:10px;
+  }
+  #front .carousel .glyphicon-chevron-right {
+    margin-right:10px;
+  }
+
+    #front #clients-say .carousel-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 @media(max-width: 760px){
     #front #clients-say .carousel-inner .item {
         padding-top: 50px;
@@ -376,7 +391,7 @@ textarea:focus {
   border-bottom: 1px solid #baccd2;
 }
 .workDiv:last-child {
-    border:0px solid black;
+    border-bottom: 0px solid transparent !important;
 }
 @media(max-width:767px){
   #portfolio .row {
@@ -437,8 +452,10 @@ footer .contact {
         padding-right: 0
     }
     .welcomeBackground {
-        margin-top: 50px;
-        min-height: calc(100vh - 50px)
+        margin-top: 0px;
+    }
+    .welcomeBackground .child {
+      margin-bottom: 0px;
     }
     .active {
         background-color: #fff
