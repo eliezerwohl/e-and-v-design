@@ -52,9 +52,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/services.php">Services</a></li>
-            <li><a href="/projects.php">Projects</a></li>
-            <li><a href="/contact.php">Contact</a></li>
+            <li><a href="/testpage/services.php.php">Services</a></li>
+            <li><a href="/testpage/projects.php.php">Projects</a></li>
+            <li><a href="/testpage/contact.php.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -64,7 +64,7 @@
     <div id ="main">
      <div id="four" class="container">
          <h1>404'd!</h1>
-         <div class="col-md-12"><p>The page you are trying to reach cannot be found. <a href="/">Click here to go to the homepage.</a></p></div>
+         <div class="col-md-12"><p>The page you are trying to reach cannot be found. <a href="/testpage">Click here to go to the homepage.</a></p></div>
       </div>
     </div>
     <?php require 'footer.php';?>
