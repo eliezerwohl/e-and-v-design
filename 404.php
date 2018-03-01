@@ -23,7 +23,7 @@
 <meta name="theme-color" content="#ffffff">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.min.css">
     <title>E and V Design | NJ Web Development</title>
     <meta name="Description" content='E and V Design offers web development services, including design, SEO, hosting, development, and more.  Located in Edison, NJ'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -53,9 +53,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/testpage/services.php.php">Services</a></li>
-            <li><a href="/testpage/projects.php.php">Projects</a></li>
-            <li><a href="/testpage/contact.php.php">Contact</a></li>
+            <li><a href="/services.php.php">Services</a></li>
+            <li><a href="/projects.php.php">Projects</a></li>
+            <li><a href="/contact.php.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -65,7 +65,7 @@
     <div id ="main">
      <div id="four" class="container">
          <h1>404'd!</h1>
-         <div class="col-md-12"><p>The page you are trying to reach cannot be found. <a href="/testpage">Click here to go to the homepage.</a></p></div>
+         <div class="col-md-12"><p>The page you are trying to reach cannot be found. <a href="/">Click here to go to the homepage.</a></p></div>
       </div>
     </div>
     <?php require 'footer.php';?>
