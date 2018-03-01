@@ -4,26 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
     <title>E and V Design | NJ Web Design and Development</title>
     <meta name="Description" content='Located in Edison, NJ, E and V Design creates unique website experiences for individuals, groups, non-profits, and businesses. We offer a range of services including website design, development, SEO, and custom WordPress sites.'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -47,14 +47,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a id="homeButton" class="navbar-brand brandHide" href="/testpage">E & V <img alt="logo" id="brand-logo"  src="img/logo.png"> Design</a>
+          <a id="homeButton" class="navbar-brand brandHide" href="/">E & V <img alt="logo" id="brand-logo"  src="img/logo.png"> Design</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/testpage/services.php">Services</a></li>
-            <li><a href="/testpage/projects.php">Projects</a></li>
-            <li><a href="/testpage/contact.php">Contact</a></li>
+            <li><a href="/services.php">Services</a></li>
+            <li><a href="/projects.php">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -76,25 +76,25 @@
         <h2>Services</h2>
         <div class="col-md-12 service">
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/testpage/services.php#design">
+            <a href="/services.php#design">
               <img alt="design logo" src="img/service-design.png">
               <p>Design</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/testpage/services.php#ux">
+            <a href="/services.php#ux">
               <img alt="UX logo" src="img/service-ux.png">
               <p>User Experience</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/testpage/services.php#dev">
+            <a href="/services.php#dev">
               <img alt="service logo" src="img/service-dev.png">
               <p>Development</p>
             </a>
           </div>
           <div class="col-sm-3 service-container col-xs-6">
-            <a href="/testpage/services.php#seo">
+            <a href="/services.php#seo">
               <img alt="SEO logo" src="img/service-seo.png">
               <p>SEO</p>
             </a>
@@ -188,7 +188,7 @@
     <?php require 'footer.php';?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript" src="js/navbar.min.js"></script>
     <script type="text/javascript" src="js/contact.min.js"></script>
   </body>
 </html>
