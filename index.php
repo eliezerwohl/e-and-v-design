@@ -66,13 +66,13 @@
         <div class="child">
           <h1>E & V Design</h1>
           <img alt="logo" id ="logo" class="center-text" src="img/logo.png">
-          <h2>Web and UX Design and Development</h2>
+          <h2>Web Design and Development</h2>
         </div>
       </div>
     </div>
     <!--   tools used side projects  social contact -->
     <div id="main">
-      <div class="container text-center">
+      <div class="container text-center main-container">
         <h2>Services</h2>
         <div class="col-md-12 service">
           <div class="col-sm-3 service-container col-xs-6">
@@ -169,7 +169,7 @@
             </div>
             <div class="contact-container">
               <div class="col-sm-12">
-                <textarea  id="message" placeholder="message" rows="8" class="col-xs-12"></textarea>
+                <textarea  id="message" placeholder="message" rows="10" class="col-xs-12"></textarea>
               </div>
             </div>
             <div class="contact-container">
