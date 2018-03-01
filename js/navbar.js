@@ -43,6 +43,15 @@ $(document).ready(function() {
   $(document).scroll(function() {
     if (!mobile){
       scrollFunction();
+    } else {
+    scrollPosition = $(this).scrollTop();
+    console.log(scrollPosition)
+    if (scrollPosition > 120){
+      $("#homeButton").fadeIn()
+    }
+    else {
+      $("#homeButton").fadeOut()
+    }
     }
   });
   $( window ).resize(function() {
@@ -51,6 +60,9 @@ $(document).ready(function() {
       $(navbarLink).css("color", "rgb(152, 128, 136)");
     }
     else {
+      // if (scrollPosition > 0 ){
+        $("#homeButton").css("display", "")
+      // }
       scrollFunction();
     }
   });
