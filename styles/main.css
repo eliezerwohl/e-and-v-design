@@ -83,6 +83,9 @@ textarea:focus {
   font-style: italic
 }
 
+.color-background {
+  background-color: #cbbfc3;
+}
 /*Main*/
 
 #main a,
@@ -472,6 +475,32 @@ footer a:hover {
 }
 /*Services*/
 
+#services #main {
+  margin-bottom: 0px;
+}
+
+#services #main h2 {
+  font-family: 'Oswald', sans-serif;
+}
+#services p {
+  margin-bottom: 20px;
+}
+
+#services #design p {
+  margin-bottom: 40px;
+}
+
+#services #design .section {
+  padding-bottom: 10px;
+}
+#services .section {
+  padding-bottom: 30px;
+}
+
+#services .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 #services h3 {
   margin-top: 0px;
 }
@@ -482,7 +511,8 @@ footer a:hover {
 
 #services .img-holder .img-responsive {
   display: inline;
-  max-width: 210px;
+  max-width: 100px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -498,7 +528,7 @@ footer {
   color: #4e4a4a;
   padding: 20px 0;
   font-size: 12px;
-  background-color: #769aa6;
+  background-color: #3f3f3f;
   color: white;
 }
 

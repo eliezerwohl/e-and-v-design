@@ -4,23 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-<link rel="manifest" href="img/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+      <link rel="shortcut icon"  href="/img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/main.min.css">
@@ -65,6 +49,27 @@
     <div id ="main">
      <div id="portfolio" class="container">
           <h1>Our Work</h1>
+          <div class="row workDiv">
+            <div class="col-sm-6">
+              <img src="img/barb.jpg" class="img-responsive" alt="Barbara Nelson's website">
+            </div>
+            <div class="col-sm-6">
+              <h3>Barbara L. Nelson LCSW</h3>
+              <a target="_blank" href="https://barbaralnelson.com/">
+                <p>barbaralnelson.com</p>
+              </a>
+              <p>Design and Development Process</p>
+              <ul>
+                <li>Wireframes</li>
+                <li>Mockups</li>
+                <li>SEO</li>
+                <li>Coded custom dual language WordPress site</li>
+                <li>Coded English and Spanish translation versions</li>
+                <li>Sourced assets</li>
+                <li>Individualized favicon</li>
+              </ul>
+            </div>
+          </div>
           <div class="row workDiv">
           <div class="col-sm-6 col-sm-push-6">
             <img src="img/tmmt.jpg" class="img-responsive" alt="Millennial Mom Times website">
