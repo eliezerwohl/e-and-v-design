@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   var offsetVar;
-  if ($(window).width() < 960) {
+  if ($(window).width() < 767) {
    offsetVar = 20;
   }
   else {

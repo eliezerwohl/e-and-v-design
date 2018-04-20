@@ -72,9 +72,29 @@
           </div>
           <div class="row workDiv">
           <div class="col-sm-6 col-sm-push-6">
-            <img src="img/tmmt.jpg" class="img-responsive" alt="Millennial Mom Times website">
+            <img src="img/nicola.jpg" class="img-responsive" alt="Nicola Counseling Services, LLC website">
           </div>
           <div class="col-sm-6 col-sm-pull-6">
+            <h3>Nicola Counseling Services, LLC</h3>
+            <a target="_blank" href="https://nicolacounselingservices.com/">
+              <p>nicolacounselingservices.com</p>
+            </a>
+            <p>Design and Development Process</p>
+            <ul>
+              <li>Wireframes</li>
+              <li>Mockups</li>
+              <li>SEO</li>
+              <li>Hosting</li>
+              <li>Coded WordPress custom theme including ACF</li>
+              <li>Information architecture</li>
+            </ul>
+          </div>
+        </div>
+          <div class="row workDiv">
+          <div class="col-sm-6">
+            <img src="img/tmmt.jpg" class="img-responsive" alt="Millennial Mom Times website">
+          </div>
+          <div class="col-sm-6">
             <h3>The Millennial Mom Times</h3>
             <a target="_blank" href="https://www.millennialmomtimes.com/">
               <p>millennialmomtimes.com</p>
@@ -91,10 +111,10 @@
           </div>
         </div>
         <div class="row workDiv">
-          <div class="col-sm-6">
+          <div class="col-sm-6 col-sm-push-6">
             <img src="img/triangle.jpg" class="img-responsive" alt="Triangle Psychotherapies website">
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6  col-sm-pull-6">
             <h3>Triangle Psychotherapies</h3>
             <a target="_blank" href="http://www.triangle-psychotherapy.com/">
               <p>triangle-psychotherapy.com</p>
@@ -112,10 +132,10 @@
           </div>
         </div>
         <div class="row workDiv">
-          <div class="col-sm-6 col-sm-push-6">
+          <div class="col-sm-6">
             <img src="img/esllc.jpg" class="img-responsive" alt="Eisenstein-Sirot Group website">
           </div>
-          <div class="col-sm-6 col-sm-pull-6">
+          <div class="col-sm-6">
             <h3>Eisenstein-Sirot Group</h3>
             <a target="_blank" href="http://esfgllc.com/">
               <p>esfgllc.com</p>
@@ -128,10 +148,10 @@
           </div>
         </div>
         <div class="row workDiv">
-          <div class="col-sm-6">
+          <div class="col-sm-6 col-sm-push-6">
             <img src="img/hands.jpg" class="img-responsive" alt="Assisting Hands website">
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6  col-sm-pull-6">
             <h3>Assisting Hands</h3>
             <p>&nbsp;</p>
             <p>Development included</p>
@@ -144,10 +164,10 @@
           </div>
         </div>
         <div class="row workDiv">
-          <div class="col-sm-6 col-sm-push-6">
+          <div class="col-sm-6">
             <img src="img/gurufitclub.jpg" class="img-responsive" alt="Gurufit Club website">
           </div>
-          <div class="col-sm-6 col-sm-pull-6">
+          <div class="col-sm-6">
             <h3>Guru Fit Website</h3>
             <a target="_blank" href="https://www.gurufitclub.com/">
               <p>gurufitclub.com</p>
