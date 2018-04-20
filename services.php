@@ -55,7 +55,7 @@
             </div>
             <h3>Basic Package</h3>
             <p>Did you buy a Wordpress theme and it just won’t work? Do you have a Wordpress theme and it’s broken? Out of date? Hacked? We can help! With this package you’ll send us the
-              theme, all your content (text and photos), and hosting information. Then we’ll get your site up and running
+              theme, all your content (text and photos), and hosting information. Then we’ll get your site up and running.  Same for Wix and other website builders
             </p>
             <h3>Entrepreneur Package</h3>
             <p>An easy start to your new business, non-profit, or solo practice. Simply pick a layout and colors, supply us
@@ -96,12 +96,12 @@
               <img src="img/service-dev-green.png" class="img-responsive" alt="dev symbol">
             </div>
             <p>We offer hosting and retainer packages for websites designed by our team. Hosting plans
-              include maintenance services to keep your site up and running smoothly, while Retainer Plans free your
-              time up from updating content.
+              include maintenance services and backups to keep your site running smoothly, while Retainer Plans free your time up from updating content.
             </p>
             <p>
-              Have another development need? Contact us and let’s explore the solutions
+              Have another development need? Our team is well-versed in the latest coding languages/frameworks. Contact us and let’s explore the solutions.
             </p>
+
           </div>
         </div>
         <div class="color-background">
